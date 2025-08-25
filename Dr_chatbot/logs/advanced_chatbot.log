@@ -1,0 +1,1138 @@
+2025-08-24 15:25:24 | INFO     | __main__:setup_logging:52 - 🚀 Advanced logging system initialized
+2025-08-24 15:25:24 | INFO     | __main__:create_directories:169 - 📁 Creating necessary directories...
+2025-08-24 15:25:24 | DEBUG    | __main__:create_directories:180 - ✅ Directory created/verified: logs
+2025-08-24 15:25:24 | DEBUG    | __main__:create_directories:180 - ✅ Directory created/verified: conversation_memory
+2025-08-24 15:25:24 | DEBUG    | __main__:create_directories:180 - ✅ Directory created/verified: temp
+2025-08-24 15:25:24 | INFO     | __main__:create_directories:182 - ✅ Directory structure ready
+2025-08-24 15:25:24 | INFO     | __main__:check_advanced_dependencies:137 - 🔧 Checking advanced AI dependencies...
+2025-08-24 15:25:24 | DEBUG    | __main__:check_advanced_dependencies:153 - ✅ openai available
+2025-08-24 15:25:24 | DEBUG    | __main__:check_advanced_dependencies:153 - ✅ pinecone available
+2025-08-24 15:25:24 | DEBUG    | __main__:check_advanced_dependencies:153 - ✅ fastapi available
+2025-08-24 15:25:24 | DEBUG    | __main__:check_advanced_dependencies:153 - ✅ uvicorn available
+2025-08-24 15:25:24 | DEBUG    | __main__:check_advanced_dependencies:153 - ✅ tiktoken available
+2025-08-24 15:25:24 | DEBUG    | __main__:check_advanced_dependencies:153 - ✅ loguru available
+2025-08-24 15:25:24 | INFO     | __main__:check_advanced_dependencies:163 - ✅ All advanced AI dependencies available
+2025-08-24 15:25:24 | INFO     | __main__:check_environment:57 - 🔍 Checking environment configuration...
+2025-08-24 15:25:27 | INFO     | __main__:check_environment:86 - ✅ OpenAI API connection successful
+2025-08-24 15:25:30 | INFO     | __main__:check_environment:95 - ✅ Pinecone API connection successful
+2025-08-24 15:25:30 | INFO     | __main__:check_environment:100 - ✅ Environment configuration check complete
+2025-08-24 15:25:30 | INFO     | __main__:setup_data:106 - 📊 Setting up data for advanced AI system...
+2025-08-24 15:25:30 | INFO     | __main__:setup_data:116 - 🔍 Validating data chunks...
+2025-08-24 15:25:35 | ERROR    | __main__:setup_data:120 - ❌ Data chunk validation failed: cannot unpack non-iterable NoneType object
+2025-08-24 15:25:35 | ERROR    | __main__:main:259 - ❌ Data setup failed. Please check your data files.
+2025-08-24 15:26:41 | INFO     | __main__:setup_logging:52 - 🚀 Advanced logging system initialized
+2025-08-24 15:26:41 | INFO     | __main__:create_directories:169 - 📁 Creating necessary directories...
+2025-08-24 15:26:41 | DEBUG    | __main__:create_directories:180 - ✅ Directory created/verified: logs
+2025-08-24 15:26:41 | DEBUG    | __main__:create_directories:180 - ✅ Directory created/verified: conversation_memory
+2025-08-24 15:26:41 | DEBUG    | __main__:create_directories:180 - ✅ Directory created/verified: temp
+2025-08-24 15:26:41 | INFO     | __main__:create_directories:182 - ✅ Directory structure ready
+2025-08-24 15:26:41 | INFO     | __main__:check_advanced_dependencies:137 - 🔧 Checking advanced AI dependencies...
+2025-08-24 15:26:41 | DEBUG    | __main__:check_advanced_dependencies:153 - ✅ openai available
+2025-08-24 15:26:41 | DEBUG    | __main__:check_advanced_dependencies:153 - ✅ pinecone available
+2025-08-24 15:26:41 | DEBUG    | __main__:check_advanced_dependencies:153 - ✅ fastapi available
+2025-08-24 15:26:41 | DEBUG    | __main__:check_advanced_dependencies:153 - ✅ uvicorn available
+2025-08-24 15:26:41 | DEBUG    | __main__:check_advanced_dependencies:153 - ✅ tiktoken available
+2025-08-24 15:26:41 | DEBUG    | __main__:check_advanced_dependencies:153 - ✅ loguru available
+2025-08-24 15:26:41 | INFO     | __main__:check_advanced_dependencies:163 - ✅ All advanced AI dependencies available
+2025-08-24 15:26:41 | INFO     | __main__:check_environment:57 - 🔍 Checking environment configuration...
+2025-08-24 15:26:44 | INFO     | __main__:check_environment:86 - ✅ OpenAI API connection successful
+2025-08-24 15:26:46 | INFO     | __main__:check_environment:95 - ✅ Pinecone API connection successful
+2025-08-24 15:26:46 | INFO     | __main__:check_environment:100 - ✅ Environment configuration check complete
+2025-08-24 15:26:46 | INFO     | __main__:setup_data:106 - 📊 Setting up data for advanced AI system...
+2025-08-24 15:26:46 | INFO     | __main__:setup_data:116 - 🔍 Validating data chunks...
+2025-08-24 15:26:53 | INFO     | __main__:setup_data:118 - ✅ Data validation complete: 65,259 words, 872 chunks
+2025-08-24 15:26:53 | INFO     | __main__:setup_data:125 - 📤 Loading data to Pinecone vector database...
+2025-08-24 15:28:10 | INFO     | __main__:setup_logging:52 - 🚀 Advanced logging system initialized
+2025-08-24 15:28:10 | INFO     | __main__:create_directories:172 - 📁 Creating necessary directories...
+2025-08-24 15:28:10 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: logs
+2025-08-24 15:28:10 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: conversation_memory
+2025-08-24 15:28:10 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: temp
+2025-08-24 15:28:10 | INFO     | __main__:create_directories:185 - ✅ Directory structure ready
+2025-08-24 15:28:10 | INFO     | __main__:check_advanced_dependencies:140 - 🔧 Checking advanced AI dependencies...
+2025-08-24 15:28:10 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ openai available
+2025-08-24 15:28:10 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ pinecone available
+2025-08-24 15:28:10 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ fastapi available
+2025-08-24 15:28:10 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ uvicorn available
+2025-08-24 15:28:10 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ tiktoken available
+2025-08-24 15:28:10 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ loguru available
+2025-08-24 15:28:10 | INFO     | __main__:check_advanced_dependencies:166 - ✅ All advanced AI dependencies available
+2025-08-24 15:28:10 | INFO     | __main__:check_environment:57 - 🔍 Checking environment configuration...
+2025-08-24 15:28:13 | INFO     | __main__:check_environment:86 - ✅ OpenAI API connection successful
+2025-08-24 15:28:15 | INFO     | __main__:check_environment:95 - ✅ Pinecone API connection successful
+2025-08-24 15:28:15 | INFO     | __main__:check_environment:100 - ✅ Environment configuration check complete
+2025-08-24 15:28:15 | INFO     | __main__:setup_data:106 - 📊 Setting up data for advanced AI system...
+2025-08-24 15:28:15 | INFO     | __main__:setup_data:116 - 🔍 Validating data chunks...
+2025-08-24 15:28:21 | INFO     | __main__:setup_data:119 - ✅ Data validation complete: 65,259 words, 915 chunks
+2025-08-24 15:28:21 | INFO     | __main__:setup_data:127 - ✅ Data already loaded in Pinecone: 915 vectors
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:190 - 🎯 Advanced AI Dental Chatbot System Information:
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:191 - ============================================================
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:192 - 🤖 AI Features:
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:193 -    • Multi-Agent System (Diagnostic, Treatment, Prevention, Emergency)
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:194 -    • Chain-of-Thought Reasoning
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:195 -    • Automatic Response Quality Checking
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:196 -    • Intelligent Reprompting for Better Responses
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:197 -    • Advanced RAG with OpenAI Embeddings
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:198 -    • Conversation Memory and Context Management
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:199 -    • Query Expansion and Relevance Boosting
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:200 - 
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:201 - 🏥 Medical Expertise:
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:202 -    • Dr. Meenakshi Tomar's 30+ years experience
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:203 -    • Specialized in full mouth reconstruction
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:204 -    • WCLI certified laser surgery
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:205 -    • Evidence-based treatment recommendations
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:206 - 
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:207 - 🔧 Technical Stack:
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:208 -    • OpenAI GPT-4o-mini with advanced prompting
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:209 -    • OpenAI text-embedding-3-small for embeddings
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:210 -    • Pinecone vector database for knowledge retrieval
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:211 -    • FastAPI with async processing
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:212 -    • Advanced query expansion and relevance scoring
+2025-08-24 15:28:21 | INFO     | __main__:display_system_info:213 - ============================================================
+2025-08-24 15:28:21 | INFO     | __main__:start_advanced_server:218 - 🚀 Starting Advanced AI Dental Chatbot Server...
+2025-08-24 15:28:21 | INFO     | __main__:start_advanced_server:231 - 🌐 Server starting on http://127.0.0.1:8000
+2025-08-24 15:28:21 | INFO     | __main__:start_advanced_server:232 - 📱 Advanced chat interface available at: http://127.0.0.1:8000/advanced_chat.html
+2025-08-24 15:28:21 | INFO     | __main__:start_advanced_server:233 - 🔍 Health check endpoint: http://127.0.0.1:8000/health
+2025-08-24 15:28:21 | INFO     | __main__:start_advanced_server:234 - 📊 System stats endpoint: http://127.0.0.1:8000/stats
+2025-08-24 15:28:21 | INFO     | advanced_app:startup_event:80 - 🚀 Starting Advanced Dr. Chatbot server...
+2025-08-24 15:28:21 | INFO     | advanced_app:startup_event:84 - ✅ OpenAI client initialized
+2025-08-24 15:28:21 | INFO     | memory_manager:__init__:212 - Memory Manager initialized with storage: conversation_memory
+2025-08-24 15:28:21 | INFO     | advanced_app:startup_event:94 - ✅ Memory Manager initialized
+2025-08-24 15:28:29 | INFO     | advanced_rag:__init__:35 - Advanced RAG Pipeline initialized with OpenAI embeddings
+2025-08-24 15:28:29 | INFO     | multi_agent_system:__init__:228 - Multi-Agent System initialized with all specialist agents
+2025-08-24 15:28:29 | INFO     | advanced_app:startup_event:101 - ✅ Multi-Agent Orchestrator initialized
+2025-08-24 15:28:29 | INFO     | advanced_app:startup_event:106 - 🎉 Advanced AI Agent System ready!
+2025-08-24 15:30:28 | INFO     | advanced_app:advanced_chat_endpoint:135 - 📝 Received message: hi...
+2025-08-24 15:30:28 | INFO     | memory_manager:get_conversation:248 - Created new conversation for session d78d020812ae144b
+2025-08-24 15:30:28 | DEBUG    | memory_manager:add_message:91 - Added user message to conversation d78d020812ae144b
+2025-08-24 15:30:28 | INFO     | multi_agent_system:process_consultation:249 - Processing consultation: hi...
+2025-08-24 15:30:36 | INFO     | advanced_rag:query_expansion:211 - Query expanded with 5 additional terms
+2025-08-24 15:30:42 | INFO     | advanced_rag:enhanced_retrieval:61 - Retrieved 10 chunks using enhanced OpenAI approach
+2025-08-24 15:30:42 | INFO     | advanced_rag:context_optimization:182 - Optimized context: 2002 tokens, 5 chunks
+2025-08-24 15:30:42 | INFO     | multi_agent_system:process_consultation:258 - Routed to general agent
+2025-08-24 15:30:44 | INFO     | quality_checker:improve_response_with_reprompting:197 - Attempt 1: Quality score 50.0
+2025-08-24 15:30:47 | INFO     | quality_checker:improve_response_with_reprompting:197 - Attempt 2: Quality score 62.5
+2025-08-24 15:30:51 | INFO     | quality_checker:improve_response_with_reprompting:197 - Attempt 3: Quality score 75.0
+2025-08-24 15:30:51 | INFO     | quality_checker:improve_response_with_reprompting:201 - Quality threshold met after 3 attempts
+2025-08-24 15:30:51 | ERROR    | advanced_app:advanced_chat_endpoint:189 - ❌ Chat endpoint error: module 'agentops' has no attribute 'record_action'
+2025-08-24 15:32:40 | INFO     | __main__:setup_data:127 - ✅ Data loaded to Pinecone: 1090 vectors
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:187 - 🎯 Advanced AI Dental Chatbot System Information:
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:188 - ============================================================
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:189 - 🤖 AI Features:
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:190 -    • Multi-Agent System (Diagnostic, Treatment, Prevention, Emergency)
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:191 -    • Chain-of-Thought Reasoning
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:192 -    • Automatic Response Quality Checking
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:193 -    • Intelligent Reprompting for Better Responses
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:194 -    • Advanced RAG with OpenAI Embeddings
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:195 -    • Conversation Memory and Context Management
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:196 -    • Query Expansion and Relevance Boosting
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:197 - 
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:198 - 🏥 Medical Expertise:
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:199 -    • Dr. Meenakshi Tomar's 30+ years experience
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:200 -    • Specialized in full mouth reconstruction
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:201 -    • WCLI certified laser surgery
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:202 -    • Evidence-based treatment recommendations
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:203 - 
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:204 - 🔧 Technical Stack:
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:205 -    • OpenAI GPT-4o-mini with advanced prompting
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:206 -    • OpenAI text-embedding-3-small for embeddings
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:207 -    • Pinecone vector database for knowledge retrieval
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:208 -    • FastAPI with async processing
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:209 -    • Advanced query expansion and relevance scoring
+2025-08-24 15:32:40 | INFO     | __main__:display_system_info:210 - ============================================================
+2025-08-24 15:32:40 | INFO     | __main__:start_advanced_server:215 - 🚀 Starting Advanced AI Dental Chatbot Server...
+2025-08-24 15:32:40 | INFO     | __main__:start_advanced_server:228 - 🌐 Server starting on http://127.0.0.1:8000
+2025-08-24 15:32:40 | INFO     | __main__:start_advanced_server:229 - 📱 Advanced chat interface available at: http://127.0.0.1:8000/advanced_chat.html
+2025-08-24 15:32:40 | INFO     | __main__:start_advanced_server:230 - 🔍 Health check endpoint: http://127.0.0.1:8000/health
+2025-08-24 15:32:40 | INFO     | __main__:start_advanced_server:231 - 📊 System stats endpoint: http://127.0.0.1:8000/stats
+2025-08-24 15:32:40 | INFO     | advanced_app:startup_event:80 - 🚀 Starting Advanced Dr. Chatbot server...
+2025-08-24 15:32:41 | INFO     | advanced_app:startup_event:84 - ✅ OpenAI client initialized
+2025-08-24 15:32:41 | INFO     | memory_manager:__init__:212 - Memory Manager initialized with storage: conversation_memory
+2025-08-24 15:32:41 | INFO     | advanced_app:startup_event:94 - ✅ Memory Manager initialized
+2025-08-24 15:32:41 | INFO     | advanced_rag:__init__:35 - Advanced RAG Pipeline initialized with OpenAI embeddings
+2025-08-24 15:32:41 | INFO     | multi_agent_system:__init__:228 - Multi-Agent System initialized with all specialist agents
+2025-08-24 15:32:41 | INFO     | advanced_app:startup_event:101 - ✅ Multi-Agent Orchestrator initialized
+2025-08-24 15:32:41 | INFO     | advanced_app:startup_event:106 - 🎉 Advanced AI Agent System ready!
+2025-08-24 15:32:41 | INFO     | advanced_app:shutdown_event:303 - 💾 All conversations saved
+2025-08-24 15:32:43 | INFO     | advanced_app:shutdown_event:308 - 👋 Advanced AI Agent System shutdown complete
+2025-08-24 15:39:15 | INFO     | __main__:setup_logging:52 - 🚀 Advanced logging system initialized
+2025-08-24 15:39:15 | INFO     | __main__:create_directories:172 - 📁 Creating necessary directories...
+2025-08-24 15:39:15 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: logs
+2025-08-24 15:39:15 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: conversation_memory
+2025-08-24 15:39:15 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: temp
+2025-08-24 15:39:15 | INFO     | __main__:create_directories:185 - ✅ Directory structure ready
+2025-08-24 15:39:15 | INFO     | __main__:check_advanced_dependencies:140 - 🔧 Checking advanced AI dependencies...
+2025-08-24 15:39:15 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ openai available
+2025-08-24 15:39:15 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ pinecone available
+2025-08-24 15:39:15 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ fastapi available
+2025-08-24 15:39:15 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ uvicorn available
+2025-08-24 15:39:15 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ tiktoken available
+2025-08-24 15:39:15 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ loguru available
+2025-08-24 15:39:15 | INFO     | __main__:check_advanced_dependencies:166 - ✅ All advanced AI dependencies available
+2025-08-24 15:39:15 | INFO     | __main__:check_environment:57 - 🔍 Checking environment configuration...
+2025-08-24 15:39:18 | INFO     | __main__:check_environment:86 - ✅ OpenAI API connection successful
+2025-08-24 15:39:20 | INFO     | __main__:check_environment:95 - ✅ Pinecone API connection successful
+2025-08-24 15:39:20 | INFO     | __main__:check_environment:100 - ✅ Environment configuration check complete
+2025-08-24 15:39:20 | INFO     | __main__:setup_data:106 - 📊 Setting up data for advanced AI system...
+2025-08-24 15:39:20 | INFO     | __main__:setup_data:116 - 🔍 Validating data chunks...
+2025-08-24 15:39:26 | INFO     | __main__:setup_data:119 - ✅ Data validation complete: 65,259 words, 1090 chunks
+2025-08-24 15:39:26 | INFO     | __main__:setup_data:127 - ✅ Data already loaded in Pinecone: 1090 vectors
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:190 - 🎯 Advanced AI Dental Chatbot System Information:
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:191 - ============================================================
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:192 - 🤖 AI Features:
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:193 -    • Multi-Agent System (Diagnostic, Treatment, Prevention, Emergency)
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:194 -    • Chain-of-Thought Reasoning
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:195 -    • Automatic Response Quality Checking
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:196 -    • Intelligent Reprompting for Better Responses
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:197 -    • Advanced RAG with OpenAI Embeddings
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:198 -    • Conversation Memory and Context Management
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:199 -    • Query Expansion and Relevance Boosting
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:200 - 
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:201 - 🏥 Medical Expertise:
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:202 -    • Dr. Meenakshi Tomar's 30+ years experience
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:203 -    • Specialized in full mouth reconstruction
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:204 -    • WCLI certified laser surgery
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:205 -    • Evidence-based treatment recommendations
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:206 - 
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:207 - 🔧 Technical Stack:
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:208 -    • OpenAI GPT-4o-mini with advanced prompting
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:209 -    • OpenAI text-embedding-3-small for embeddings
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:210 -    • Pinecone vector database for knowledge retrieval
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:211 -    • FastAPI with async processing
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:212 -    • Advanced query expansion and relevance scoring
+2025-08-24 15:39:26 | INFO     | __main__:display_system_info:213 - ============================================================
+2025-08-24 15:39:26 | INFO     | __main__:start_advanced_server:218 - 🚀 Starting Advanced AI Dental Chatbot Server...
+2025-08-24 15:39:26 | INFO     | __main__:start_advanced_server:231 - 🌐 Server starting on http://127.0.0.1:8000
+2025-08-24 15:39:26 | INFO     | __main__:start_advanced_server:232 - 📱 Advanced chat interface available at: http://127.0.0.1:8000/advanced_chat.html
+2025-08-24 15:39:26 | INFO     | __main__:start_advanced_server:233 - 🔍 Health check endpoint: http://127.0.0.1:8000/health
+2025-08-24 15:39:26 | INFO     | __main__:start_advanced_server:234 - 📊 System stats endpoint: http://127.0.0.1:8000/stats
+2025-08-24 15:39:26 | INFO     | advanced_app:startup_event:98 - 🚀 Starting Advanced Dr. Chatbot server...
+2025-08-24 15:39:27 | INFO     | advanced_app:startup_event:102 - ✅ OpenAI client initialized
+2025-08-24 15:39:27 | INFO     | memory_manager:__init__:212 - Memory Manager initialized with storage: conversation_memory
+2025-08-24 15:39:27 | INFO     | advanced_app:startup_event:113 - ✅ Memory Manager initialized
+2025-08-24 15:39:27 | INFO     | advanced_rag:__init__:35 - Advanced RAG Pipeline initialized with OpenAI embeddings
+2025-08-24 15:39:27 | INFO     | multi_agent_system:__init__:228 - Multi-Agent System initialized with all specialist agents
+2025-08-24 15:39:27 | INFO     | advanced_app:startup_event:120 - ✅ Multi-Agent Orchestrator initialized
+2025-08-24 15:39:27 | INFO     | advanced_app:startup_event:125 - 🎉 Advanced AI Agent System ready!
+2025-08-24 15:39:44 | INFO     | advanced_app:advanced_chat_endpoint:154 - 📝 Received message: hi...
+2025-08-24 15:39:44 | INFO     | memory_manager:get_conversation:248 - Created new conversation for session 3b20f2e89ec98739
+2025-08-24 15:39:44 | DEBUG    | memory_manager:add_message:91 - Added user message to conversation 3b20f2e89ec98739
+2025-08-24 15:39:44 | INFO     | multi_agent_system:process_consultation:249 - Processing consultation: hi...
+2025-08-24 15:39:50 | INFO     | advanced_rag:query_expansion:211 - Query expanded with 5 additional terms
+2025-08-24 15:40:05 | INFO     | advanced_rag:enhanced_retrieval:61 - Retrieved 10 chunks using enhanced OpenAI approach
+2025-08-24 15:40:05 | INFO     | advanced_rag:context_optimization:182 - Optimized context: 1947 tokens, 5 chunks
+2025-08-24 15:40:05 | INFO     | multi_agent_system:process_consultation:258 - Routed to general agent
+2025-08-24 15:40:08 | INFO     | quality_checker:improve_response_with_reprompting:197 - Attempt 1: Quality score 50.0
+2025-08-24 15:40:10 | INFO     | quality_checker:improve_response_with_reprompting:197 - Attempt 2: Quality score 50.0
+2025-08-24 15:40:12 | INFO     | quality_checker:improve_response_with_reprompting:197 - Attempt 3: Quality score 62.5
+2025-08-24 15:40:12 | WARNING  | quality_checker:improve_response_with_reprompting:206 - Max attempts (3) reached
+2025-08-24 15:40:12 | ERROR    | advanced_app:advanced_chat_endpoint:208 - ❌ Chat endpoint error: module 'agentops' has no attribute 'record_action'
+2025-08-24 15:42:46 | INFO     | __main__:setup_logging:52 - 🚀 Advanced logging system initialized
+2025-08-24 15:42:46 | INFO     | __main__:create_directories:172 - 📁 Creating necessary directories...
+2025-08-24 15:42:46 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: logs
+2025-08-24 15:42:46 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: conversation_memory
+2025-08-24 15:42:46 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: temp
+2025-08-24 15:42:46 | INFO     | __main__:create_directories:185 - ✅ Directory structure ready
+2025-08-24 15:42:46 | INFO     | __main__:check_advanced_dependencies:140 - 🔧 Checking advanced AI dependencies...
+2025-08-24 15:42:46 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ openai available
+2025-08-24 15:42:46 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ pinecone available
+2025-08-24 15:42:46 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ fastapi available
+2025-08-24 15:42:46 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ uvicorn available
+2025-08-24 15:42:46 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ tiktoken available
+2025-08-24 15:42:46 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ loguru available
+2025-08-24 15:42:46 | INFO     | __main__:check_advanced_dependencies:166 - ✅ All advanced AI dependencies available
+2025-08-24 15:42:46 | INFO     | __main__:check_environment:57 - 🔍 Checking environment configuration...
+2025-08-24 15:42:50 | INFO     | __main__:check_environment:86 - ✅ OpenAI API connection successful
+2025-08-24 15:42:52 | INFO     | __main__:check_environment:95 - ✅ Pinecone API connection successful
+2025-08-24 15:42:52 | INFO     | __main__:check_environment:100 - ✅ Environment configuration check complete
+2025-08-24 15:42:52 | INFO     | __main__:setup_data:106 - 📊 Setting up data for advanced AI system...
+2025-08-24 15:42:52 | INFO     | __main__:setup_data:116 - 🔍 Validating data chunks...
+2025-08-24 15:42:57 | INFO     | __main__:setup_data:119 - ✅ Data validation complete: 65,259 words, 1090 chunks
+2025-08-24 15:42:57 | INFO     | __main__:setup_data:127 - ✅ Data already loaded in Pinecone: 1090 vectors
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:190 - 🎯 Advanced AI Dental Chatbot System Information:
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:191 - ============================================================
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:192 - 🤖 AI Features:
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:193 -    • Multi-Agent System (Diagnostic, Treatment, Prevention, Emergency)
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:194 -    • Chain-of-Thought Reasoning
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:195 -    • Automatic Response Quality Checking
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:196 -    • Intelligent Reprompting for Better Responses
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:197 -    • Advanced RAG with OpenAI Embeddings
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:198 -    • Conversation Memory and Context Management
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:199 -    • Query Expansion and Relevance Boosting
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:200 - 
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:201 - 🏥 Medical Expertise:
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:202 -    • Dr. Meenakshi Tomar's 30+ years experience
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:203 -    • Specialized in full mouth reconstruction
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:204 -    • WCLI certified laser surgery
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:205 -    • Evidence-based treatment recommendations
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:206 - 
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:207 - 🔧 Technical Stack:
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:208 -    • OpenAI GPT-4o-mini with advanced prompting
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:209 -    • OpenAI text-embedding-3-small for embeddings
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:210 -    • Pinecone vector database for knowledge retrieval
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:211 -    • FastAPI with async processing
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:212 -    • Advanced query expansion and relevance scoring
+2025-08-24 15:42:57 | INFO     | __main__:display_system_info:213 - ============================================================
+2025-08-24 15:42:57 | INFO     | __main__:start_advanced_server:218 - 🚀 Starting Advanced AI Dental Chatbot Server...
+2025-08-24 15:42:57 | INFO     | __main__:start_advanced_server:231 - 🌐 Server starting on http://127.0.0.1:8000
+2025-08-24 15:42:57 | INFO     | __main__:start_advanced_server:232 - 📱 Advanced chat interface available at: http://127.0.0.1:8000/advanced_chat.html
+2025-08-24 15:42:57 | INFO     | __main__:start_advanced_server:233 - 🔍 Health check endpoint: http://127.0.0.1:8000/health
+2025-08-24 15:42:57 | INFO     | __main__:start_advanced_server:234 - 📊 System stats endpoint: http://127.0.0.1:8000/stats
+2025-08-24 15:42:58 | INFO     | advanced_app:startup_event:98 - 🚀 Starting Advanced Dr. Chatbot server...
+2025-08-24 15:42:58 | INFO     | advanced_app:startup_event:102 - ✅ OpenAI client initialized
+2025-08-24 15:42:58 | INFO     | advanced_app:startup_event:105 - ✅ Standard logging monitoring initialized
+2025-08-24 15:42:58 | INFO     | memory_manager:__init__:212 - Memory Manager initialized with storage: conversation_memory
+2025-08-24 15:42:58 | INFO     | advanced_app:startup_event:109 - ✅ Memory Manager initialized
+2025-08-24 15:42:58 | INFO     | advanced_rag:__init__:35 - Advanced RAG Pipeline initialized with OpenAI embeddings
+2025-08-24 15:42:58 | INFO     | multi_agent_system:__init__:225 - Multi-Agent System monitoring via standard logging
+2025-08-24 15:42:58 | INFO     | multi_agent_system:__init__:227 - Multi-Agent System initialized with all specialist agents
+2025-08-24 15:42:58 | INFO     | advanced_app:startup_event:116 - ✅ Multi-Agent Orchestrator initialized
+2025-08-24 15:42:58 | INFO     | advanced_app:startup_event:121 - 🎉 Advanced AI Agent System ready!
+2025-08-24 15:43:07 | INFO     | advanced_app:advanced_chat_endpoint:150 - 📝 Received message: hi...
+2025-08-24 15:43:07 | INFO     | memory_manager:get_conversation:248 - Created new conversation for session 8513c4f47dff34d4
+2025-08-24 15:43:07 | DEBUG    | memory_manager:add_message:91 - Added user message to conversation 8513c4f47dff34d4
+2025-08-24 15:43:07 | INFO     | multi_agent_system:process_consultation:248 - Processing consultation: hi...
+2025-08-24 15:43:12 | INFO     | advanced_rag:query_expansion:211 - Query expanded with 5 additional terms
+2025-08-24 15:43:18 | INFO     | advanced_rag:enhanced_retrieval:61 - Retrieved 10 chunks using enhanced OpenAI approach
+2025-08-24 15:43:18 | INFO     | advanced_rag:context_optimization:182 - Optimized context: 1922 tokens, 5 chunks
+2025-08-24 15:43:18 | INFO     | multi_agent_system:process_consultation:257 - Routed to general agent
+2025-08-24 15:43:21 | INFO     | quality_checker:improve_response_with_reprompting:197 - Attempt 1: Quality score 50.0
+2025-08-24 15:43:24 | INFO     | quality_checker:improve_response_with_reprompting:197 - Attempt 2: Quality score 50.0
+2025-08-24 15:43:28 | INFO     | quality_checker:improve_response_with_reprompting:197 - Attempt 3: Quality score 62.5
+2025-08-24 15:43:28 | WARNING  | quality_checker:improve_response_with_reprompting:206 - Max attempts (3) reached
+2025-08-24 15:43:28 | INFO     | multi_agent_system:process_consultation:263 - Consultation metrics - Agent: general, Quality: 62.5, Confidence: 0.42, Attempts: 3, Context chunks: 5
+2025-08-24 15:43:28 | INFO     | multi_agent_system:process_consultation:269 - Consultation completed - Quality: 62.5, Confidence: 0.42
+2025-08-24 15:43:28 | DEBUG    | memory_manager:add_message:91 - Added assistant message to conversation 8513c4f47dff34d4
+2025-08-24 15:43:28 | DEBUG    | memory_manager:save_conversation:270 - Saved conversation 8513c4f47dff34d4 to storage
+2025-08-24 15:43:28 | INFO     | advanced_app:advanced_chat_endpoint:188 - ✅ Response generated - Agent: general, Quality: 62.5, Time: 20624ms
+2025-08-24 15:53:21 | INFO     | __main__:setup_logging:52 - 🚀 Advanced logging system initialized
+2025-08-24 15:53:21 | INFO     | __main__:create_directories:172 - 📁 Creating necessary directories...
+2025-08-24 15:53:21 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: logs
+2025-08-24 15:53:21 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: conversation_memory
+2025-08-24 15:53:21 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: temp
+2025-08-24 15:53:21 | INFO     | __main__:create_directories:185 - ✅ Directory structure ready
+2025-08-24 15:53:21 | INFO     | __main__:check_advanced_dependencies:140 - 🔧 Checking advanced AI dependencies...
+2025-08-24 15:53:21 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ openai available
+2025-08-24 15:53:21 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ pinecone available
+2025-08-24 15:53:21 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ fastapi available
+2025-08-24 15:53:21 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ uvicorn available
+2025-08-24 15:53:21 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ tiktoken available
+2025-08-24 15:53:21 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ loguru available
+2025-08-24 15:53:21 | INFO     | __main__:check_advanced_dependencies:166 - ✅ All advanced AI dependencies available
+2025-08-24 15:53:21 | INFO     | __main__:check_environment:57 - 🔍 Checking environment configuration...
+2025-08-24 15:53:25 | INFO     | __main__:check_environment:86 - ✅ OpenAI API connection successful
+2025-08-24 15:53:28 | INFO     | __main__:check_environment:95 - ✅ Pinecone API connection successful
+2025-08-24 15:53:28 | INFO     | __main__:check_environment:100 - ✅ Environment configuration check complete
+2025-08-24 15:53:28 | INFO     | __main__:setup_data:106 - 📊 Setting up data for advanced AI system...
+2025-08-24 15:53:28 | INFO     | __main__:setup_data:116 - 🔍 Validating data chunks...
+2025-08-24 15:53:34 | INFO     | __main__:setup_data:119 - ✅ Data validation complete: 65,259 words, 1090 chunks
+2025-08-24 15:53:34 | INFO     | __main__:setup_data:127 - ✅ Data already loaded in Pinecone: 1090 vectors
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:190 - 🎯 Advanced AI Dental Chatbot System Information:
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:191 - ============================================================
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:192 - 🤖 AI Features:
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:193 -    • Multi-Agent System (Diagnostic, Treatment, Prevention, Emergency)
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:194 -    • Chain-of-Thought Reasoning
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:195 -    • Automatic Response Quality Checking
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:196 -    • Intelligent Reprompting for Better Responses
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:197 -    • Advanced RAG with OpenAI Embeddings
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:198 -    • Conversation Memory and Context Management
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:199 -    • Query Expansion and Relevance Boosting
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:200 - 
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:201 - 🏥 Medical Expertise:
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:202 -    • Dr. Meenakshi Tomar's 30+ years experience
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:203 -    • Specialized in full mouth reconstruction
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:204 -    • WCLI certified laser surgery
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:205 -    • Evidence-based treatment recommendations
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:206 - 
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:207 - 🔧 Technical Stack:
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:208 -    • OpenAI GPT-4o-mini with advanced prompting
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:209 -    • OpenAI text-embedding-3-small for embeddings
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:210 -    • Pinecone vector database for knowledge retrieval
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:211 -    • FastAPI with async processing
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:212 -    • Advanced query expansion and relevance scoring
+2025-08-24 15:53:34 | INFO     | __main__:display_system_info:213 - ============================================================
+2025-08-24 15:53:34 | INFO     | __main__:start_advanced_server:218 - 🚀 Starting Advanced AI Dental Chatbot Server...
+2025-08-24 15:53:34 | INFO     | __main__:start_advanced_server:231 - 🌐 Server starting on http://127.0.0.1:8000
+2025-08-24 15:53:34 | INFO     | __main__:start_advanced_server:232 - 📱 Advanced chat interface available at: http://127.0.0.1:8000/advanced_chat.html
+2025-08-24 15:53:34 | INFO     | __main__:start_advanced_server:233 - 🔍 Health check endpoint: http://127.0.0.1:8000/health
+2025-08-24 15:53:34 | INFO     | __main__:start_advanced_server:234 - 📊 System stats endpoint: http://127.0.0.1:8000/stats
+2025-08-24 15:53:34 | INFO     | advanced_app:startup_event:93 - 🚀 Starting Advanced Dr. Chatbot server...
+2025-08-24 15:53:34 | INFO     | advanced_app:startup_event:97 - ✅ OpenAI client initialized
+2025-08-24 15:53:34 | INFO     | advanced_app:startup_event:100 - ✅ Standard logging monitoring initialized
+2025-08-24 15:53:34 | INFO     | memory_manager:__init__:212 - Memory Manager initialized with storage: conversation_memory
+2025-08-24 15:53:34 | INFO     | advanced_app:startup_event:104 - ✅ Memory Manager initialized
+2025-08-24 15:53:34 | INFO     | advanced_rag:__init__:35 - Advanced RAG Pipeline initialized with OpenAI embeddings
+2025-08-24 15:53:34 | INFO     | multi_agent_system:__init__:225 - Multi-Agent System monitoring via standard logging
+2025-08-24 15:53:34 | INFO     | multi_agent_system:__init__:227 - Multi-Agent System initialized with all specialist agents
+2025-08-24 15:53:34 | INFO     | advanced_app:startup_event:111 - ✅ Multi-Agent Orchestrator initialized
+2025-08-24 15:53:34 | INFO     | advanced_app:startup_event:116 - 🎉 Advanced AI Agent System ready!
+2025-08-24 15:53:44 | INFO     | advanced_app:advanced_chat_endpoint:145 - 📝 Received message: hi...
+2025-08-24 15:53:44 | INFO     | memory_manager:get_conversation:248 - Created new conversation for session 155b07e50e5ea82f
+2025-08-24 15:53:44 | DEBUG    | memory_manager:add_message:91 - Added user message to conversation 155b07e50e5ea82f
+2025-08-24 15:53:44 | INFO     | multi_agent_system:process_consultation:248 - Processing consultation: hi...
+2025-08-24 15:53:49 | INFO     | advanced_rag:query_expansion:211 - Query expanded with 5 additional terms
+2025-08-24 15:53:56 | INFO     | advanced_rag:enhanced_retrieval:61 - Retrieved 10 chunks using enhanced OpenAI approach
+2025-08-24 15:53:56 | INFO     | advanced_rag:context_optimization:182 - Optimized context: 1832 tokens, 5 chunks
+2025-08-24 15:53:56 | INFO     | multi_agent_system:process_consultation:257 - Routed to general agent
+2025-08-24 15:53:57 | INFO     | quality_checker:improve_response_with_reprompting:197 - Attempt 1: Quality score 50.0
+2025-08-24 15:53:59 | INFO     | quality_checker:improve_response_with_reprompting:197 - Attempt 2: Quality score 50.0
+2025-08-24 15:54:01 | INFO     | quality_checker:improve_response_with_reprompting:197 - Attempt 3: Quality score 62.5
+2025-08-24 15:54:01 | WARNING  | quality_checker:improve_response_with_reprompting:206 - Max attempts (3) reached
+2025-08-24 15:54:01 | INFO     | multi_agent_system:process_consultation:263 - Consultation metrics - Agent: general, Quality: 62.5, Confidence: 0.42, Attempts: 3, Context chunks: 5
+2025-08-24 15:54:01 | INFO     | multi_agent_system:process_consultation:269 - Consultation completed - Quality: 62.5, Confidence: 0.42
+2025-08-24 15:54:01 | DEBUG    | memory_manager:add_message:91 - Added assistant message to conversation 155b07e50e5ea82f
+2025-08-24 15:54:01 | DEBUG    | memory_manager:save_conversation:270 - Saved conversation 155b07e50e5ea82f to storage
+2025-08-24 15:54:01 | INFO     | advanced_app:advanced_chat_endpoint:183 - ✅ Response generated - Agent: general, Quality: 62.5, Time: 17474ms
+2025-08-24 15:56:10 | INFO     | __main__:setup_logging:52 - 🚀 Advanced logging system initialized
+2025-08-24 15:56:10 | INFO     | __main__:create_directories:172 - 📁 Creating necessary directories...
+2025-08-24 15:56:10 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: logs
+2025-08-24 15:56:10 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: conversation_memory
+2025-08-24 15:56:10 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: temp
+2025-08-24 15:56:10 | INFO     | __main__:create_directories:185 - ✅ Directory structure ready
+2025-08-24 15:56:10 | INFO     | __main__:check_advanced_dependencies:140 - 🔧 Checking advanced AI dependencies...
+2025-08-24 15:56:10 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ openai available
+2025-08-24 15:56:10 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ pinecone available
+2025-08-24 15:56:10 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ fastapi available
+2025-08-24 15:56:10 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ uvicorn available
+2025-08-24 15:56:10 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ tiktoken available
+2025-08-24 15:56:10 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ loguru available
+2025-08-24 15:56:10 | INFO     | __main__:check_advanced_dependencies:166 - ✅ All advanced AI dependencies available
+2025-08-24 15:56:10 | INFO     | __main__:check_environment:57 - 🔍 Checking environment configuration...
+2025-08-24 15:56:13 | INFO     | __main__:check_environment:86 - ✅ OpenAI API connection successful
+2025-08-24 15:56:15 | INFO     | __main__:check_environment:95 - ✅ Pinecone API connection successful
+2025-08-24 15:56:15 | INFO     | __main__:check_environment:100 - ✅ Environment configuration check complete
+2025-08-24 15:56:15 | INFO     | __main__:setup_data:106 - 📊 Setting up data for advanced AI system...
+2025-08-24 15:56:15 | INFO     | __main__:setup_data:116 - 🔍 Validating data chunks...
+2025-08-24 15:56:21 | INFO     | __main__:setup_data:119 - ✅ Data validation complete: 65,259 words, 1090 chunks
+2025-08-24 15:56:21 | INFO     | __main__:setup_data:127 - ✅ Data already loaded in Pinecone: 1090 vectors
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:190 - 🎯 Advanced AI Dental Chatbot System Information:
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:191 - ============================================================
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:192 - 🤖 AI Features:
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:193 -    • Multi-Agent System (Diagnostic, Treatment, Prevention, Emergency)
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:194 -    • Chain-of-Thought Reasoning
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:195 -    • Automatic Response Quality Checking
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:196 -    • Intelligent Reprompting for Better Responses
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:197 -    • Advanced RAG with OpenAI Embeddings
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:198 -    • Conversation Memory and Context Management
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:199 -    • Query Expansion and Relevance Boosting
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:200 - 
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:201 - 🏥 Medical Expertise:
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:202 -    • Dr. Meenakshi Tomar's 30+ years experience
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:203 -    • Specialized in full mouth reconstruction
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:204 -    • WCLI certified laser surgery
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:205 -    • Evidence-based treatment recommendations
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:206 - 
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:207 - 🔧 Technical Stack:
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:208 -    • OpenAI GPT-4o-mini with advanced prompting
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:209 -    • OpenAI text-embedding-3-small for embeddings
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:210 -    • Pinecone vector database for knowledge retrieval
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:211 -    • FastAPI with async processing
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:212 -    • Advanced query expansion and relevance scoring
+2025-08-24 15:56:21 | INFO     | __main__:display_system_info:213 - ============================================================
+2025-08-24 15:56:21 | INFO     | __main__:start_advanced_server:218 - 🚀 Starting Advanced AI Dental Chatbot Server...
+2025-08-24 15:56:21 | INFO     | __main__:start_advanced_server:231 - 🌐 Server starting on http://127.0.0.1:8000
+2025-08-24 15:56:21 | INFO     | __main__:start_advanced_server:232 - 📱 Advanced chat interface available at: http://127.0.0.1:8000/advanced_chat.html
+2025-08-24 15:56:21 | INFO     | __main__:start_advanced_server:233 - 🔍 Health check endpoint: http://127.0.0.1:8000/health
+2025-08-24 15:56:21 | INFO     | __main__:start_advanced_server:234 - 📊 System stats endpoint: http://127.0.0.1:8000/stats
+2025-08-24 15:56:21 | INFO     | advanced_app:startup_event:93 - 🚀 Starting Advanced Dr. Chatbot server...
+2025-08-24 15:56:21 | INFO     | advanced_app:startup_event:97 - ✅ OpenAI client initialized
+2025-08-24 15:56:21 | INFO     | advanced_app:startup_event:100 - ✅ Standard logging monitoring initialized
+2025-08-24 15:56:21 | INFO     | memory_manager:__init__:212 - Memory Manager initialized with storage: conversation_memory
+2025-08-24 15:56:21 | INFO     | advanced_app:startup_event:104 - ✅ Memory Manager initialized
+2025-08-24 15:56:22 | INFO     | advanced_rag:__init__:35 - Advanced RAG Pipeline initialized with OpenAI embeddings
+2025-08-24 15:56:22 | INFO     | multi_agent_system:__init__:225 - Multi-Agent System monitoring via standard logging
+2025-08-24 15:56:22 | INFO     | multi_agent_system:__init__:227 - Multi-Agent System initialized with all specialist agents
+2025-08-24 15:56:22 | INFO     | advanced_app:startup_event:111 - ✅ Multi-Agent Orchestrator initialized
+2025-08-24 15:56:22 | INFO     | advanced_app:startup_event:116 - 🎉 Advanced AI Agent System ready!
+2025-08-24 15:56:57 | INFO     | advanced_app:advanced_chat_endpoint:150 - 📝 Received message: do you have experience indental implants...
+2025-08-24 15:56:57 | INFO     | memory_manager:get_conversation:248 - Created new conversation for session 4b6f30eb6edeff68
+2025-08-24 15:56:57 | DEBUG    | memory_manager:add_message:91 - Added user message to conversation 4b6f30eb6edeff68
+2025-08-24 15:56:57 | INFO     | multi_agent_system:process_consultation:248 - Processing consultation: do you have experience indental implants...
+2025-08-24 15:57:04 | INFO     | advanced_rag:query_expansion:211 - Query expanded with 5 additional terms
+2025-08-24 15:57:13 | INFO     | advanced_rag:enhanced_retrieval:61 - Retrieved 10 chunks using enhanced OpenAI approach
+2025-08-24 15:57:13 | INFO     | advanced_rag:context_optimization:182 - Optimized context: 1973 tokens, 5 chunks
+2025-08-24 15:57:13 | INFO     | multi_agent_system:process_consultation:257 - Routed to treatment agent
+2025-08-24 15:57:16 | INFO     | quality_checker:improve_response_with_reprompting:197 - Attempt 1: Quality score 75.0
+2025-08-24 15:57:16 | INFO     | quality_checker:improve_response_with_reprompting:201 - Quality threshold met after 1 attempts
+2025-08-24 15:57:16 | INFO     | multi_agent_system:process_consultation:263 - Consultation metrics - Agent: treatment, Quality: 75.0, Confidence: 0.75, Attempts: 1, Context chunks: 5
+2025-08-24 15:57:16 | INFO     | multi_agent_system:process_consultation:269 - Consultation completed - Quality: 75.0, Confidence: 0.75
+2025-08-24 15:57:16 | DEBUG    | memory_manager:add_message:91 - Added assistant message to conversation 4b6f30eb6edeff68
+2025-08-24 15:57:16 | DEBUG    | memory_manager:save_conversation:270 - Saved conversation 4b6f30eb6edeff68 to storage
+2025-08-24 15:57:16 | INFO     | advanced_app:advanced_chat_endpoint:188 - ✅ Response generated - Agent: treatment, Quality: 75.0, Time: 18374ms
+2025-08-24 15:58:07 | INFO     | advanced_app:advanced_chat_endpoint:150 - 📝 Received message: yes i like...
+2025-08-24 15:58:07 | DEBUG    | memory_manager:add_message:91 - Added user message to conversation 4b6f30eb6edeff68
+2025-08-24 15:58:07 | INFO     | multi_agent_system:process_consultation:248 - Processing consultation: yes i like...
+2025-08-24 15:58:10 | INFO     | advanced_rag:query_expansion:211 - Query expanded with 5 additional terms
+2025-08-24 15:58:18 | INFO     | advanced_rag:enhanced_retrieval:61 - Retrieved 10 chunks using enhanced OpenAI approach
+2025-08-24 15:58:18 | INFO     | advanced_rag:context_optimization:182 - Optimized context: 2009 tokens, 5 chunks
+2025-08-24 15:58:18 | INFO     | multi_agent_system:process_consultation:257 - Routed to general agent
+2025-08-24 15:58:20 | INFO     | quality_checker:improve_response_with_reprompting:197 - Attempt 1: Quality score 37.5
+2025-08-24 15:58:21 | INFO     | quality_checker:improve_response_with_reprompting:197 - Attempt 2: Quality score 50.0
+2025-08-24 15:58:23 | INFO     | quality_checker:improve_response_with_reprompting:197 - Attempt 3: Quality score 50.0
+2025-08-24 15:58:23 | WARNING  | quality_checker:improve_response_with_reprompting:206 - Max attempts (3) reached
+2025-08-24 15:58:23 | INFO     | multi_agent_system:process_consultation:263 - Consultation metrics - Agent: general, Quality: 50.0, Confidence: 0.30, Attempts: 3, Context chunks: 5
+2025-08-24 15:58:23 | INFO     | multi_agent_system:process_consultation:269 - Consultation completed - Quality: 50.0, Confidence: 0.30
+2025-08-24 15:58:23 | DEBUG    | memory_manager:add_message:91 - Added assistant message to conversation 4b6f30eb6edeff68
+2025-08-24 15:58:23 | DEBUG    | memory_manager:save_conversation:270 - Saved conversation 4b6f30eb6edeff68 to storage
+2025-08-24 15:58:23 | INFO     | advanced_app:advanced_chat_endpoint:188 - ✅ Response generated - Agent: general, Quality: 50.0, Time: 15619ms
+2025-08-24 16:05:29 | INFO     | __main__:setup_logging:52 - 🚀 Advanced logging system initialized
+2025-08-24 16:05:29 | INFO     | __main__:create_directories:172 - 📁 Creating necessary directories...
+2025-08-24 16:05:29 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: logs
+2025-08-24 16:05:29 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: conversation_memory
+2025-08-24 16:05:29 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: temp
+2025-08-24 16:05:29 | INFO     | __main__:create_directories:185 - ✅ Directory structure ready
+2025-08-24 16:05:29 | INFO     | __main__:check_advanced_dependencies:140 - 🔧 Checking advanced AI dependencies...
+2025-08-24 16:05:29 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ openai available
+2025-08-24 16:05:29 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ pinecone available
+2025-08-24 16:05:29 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ fastapi available
+2025-08-24 16:05:29 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ uvicorn available
+2025-08-24 16:05:29 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ tiktoken available
+2025-08-24 16:05:29 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ loguru available
+2025-08-24 16:05:29 | INFO     | __main__:check_advanced_dependencies:166 - ✅ All advanced AI dependencies available
+2025-08-24 16:05:29 | INFO     | __main__:check_environment:57 - 🔍 Checking environment configuration...
+2025-08-24 16:05:34 | INFO     | __main__:check_environment:86 - ✅ OpenAI API connection successful
+2025-08-24 16:05:37 | INFO     | __main__:check_environment:95 - ✅ Pinecone API connection successful
+2025-08-24 16:05:37 | INFO     | __main__:check_environment:100 - ✅ Environment configuration check complete
+2025-08-24 16:05:37 | INFO     | __main__:setup_data:106 - 📊 Setting up data for advanced AI system...
+2025-08-24 16:05:37 | INFO     | __main__:setup_data:116 - 🔍 Validating data chunks...
+2025-08-24 16:05:43 | INFO     | __main__:setup_data:119 - ✅ Data validation complete: 65,259 words, 1090 chunks
+2025-08-24 16:05:43 | INFO     | __main__:setup_data:127 - ✅ Data already loaded in Pinecone: 1090 vectors
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:190 - 🎯 Advanced AI Dental Chatbot System Information:
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:191 - ============================================================
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:192 - 🤖 AI Features:
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:193 -    • Multi-Agent System (Diagnostic, Treatment, Prevention, Emergency)
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:194 -    • Chain-of-Thought Reasoning
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:195 -    • Automatic Response Quality Checking
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:196 -    • Intelligent Reprompting for Better Responses
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:197 -    • Advanced RAG with OpenAI Embeddings
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:198 -    • Conversation Memory and Context Management
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:199 -    • Query Expansion and Relevance Boosting
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:200 - 
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:201 - 🏥 Medical Expertise:
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:202 -    • Dr. Meenakshi Tomar's 30+ years experience
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:203 -    • Specialized in full mouth reconstruction
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:204 -    • WCLI certified laser surgery
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:205 -    • Evidence-based treatment recommendations
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:206 - 
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:207 - 🔧 Technical Stack:
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:208 -    • OpenAI GPT-4o-mini with advanced prompting
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:209 -    • OpenAI text-embedding-3-small for embeddings
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:210 -    • Pinecone vector database for knowledge retrieval
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:211 -    • FastAPI with async processing
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:212 -    • Advanced query expansion and relevance scoring
+2025-08-24 16:05:43 | INFO     | __main__:display_system_info:213 - ============================================================
+2025-08-24 16:05:43 | INFO     | __main__:start_advanced_server:218 - 🚀 Starting Advanced AI Dental Chatbot Server...
+2025-08-24 16:05:43 | INFO     | __main__:start_advanced_server:231 - 🌐 Server starting on http://127.0.0.1:8000
+2025-08-24 16:05:43 | INFO     | __main__:start_advanced_server:232 - 📱 Advanced chat interface available at: http://127.0.0.1:8000/advanced_chat.html
+2025-08-24 16:05:43 | INFO     | __main__:start_advanced_server:233 - 🔍 Health check endpoint: http://127.0.0.1:8000/health
+2025-08-24 16:05:43 | INFO     | __main__:start_advanced_server:234 - 📊 System stats endpoint: http://127.0.0.1:8000/stats
+2025-08-24 16:05:43 | INFO     | advanced_app:startup_event:93 - 🚀 Starting Advanced Dr. Chatbot server...
+2025-08-24 16:05:43 | INFO     | advanced_app:startup_event:97 - ✅ OpenAI client initialized
+2025-08-24 16:05:43 | INFO     | advanced_app:startup_event:100 - ✅ Standard logging monitoring initialized
+2025-08-24 16:05:43 | INFO     | memory_manager:__init__:212 - Memory Manager initialized with storage: conversation_memory
+2025-08-24 16:05:43 | INFO     | advanced_app:startup_event:104 - ✅ Memory Manager initialized
+2025-08-24 16:05:44 | INFO     | advanced_rag:__init__:35 - Advanced RAG Pipeline initialized with OpenAI embeddings
+2025-08-24 16:05:44 | INFO     | multi_agent_system:__init__:225 - Multi-Agent System monitoring via standard logging
+2025-08-24 16:05:44 | INFO     | multi_agent_system:__init__:227 - Multi-Agent System initialized with all specialist agents
+2025-08-24 16:05:44 | INFO     | advanced_app:startup_event:111 - ✅ Multi-Agent Orchestrator initialized
+2025-08-24 16:05:44 | INFO     | advanced_app:startup_event:116 - 🎉 Advanced AI Agent System ready!
+2025-08-24 16:05:55 | INFO     | advanced_app:advanced_chat_endpoint:150 - 📝 Received message: hi...
+2025-08-24 16:05:55 | INFO     | memory_manager:get_conversation:248 - Created new conversation for session 9d58201e63c418bb
+2025-08-24 16:05:55 | DEBUG    | memory_manager:add_message:91 - Added user message to conversation 9d58201e63c418bb
+2025-08-24 16:05:55 | INFO     | multi_agent_system:process_consultation:248 - Processing consultation: hi...
+2025-08-24 16:06:00 | INFO     | advanced_rag:query_expansion:211 - Query expanded with 5 additional terms
+2025-08-24 16:06:09 | INFO     | advanced_rag:enhanced_retrieval:61 - Retrieved 10 chunks using enhanced OpenAI approach
+2025-08-24 16:06:09 | INFO     | advanced_rag:context_optimization:182 - Optimized context: 2087 tokens, 5 chunks
+2025-08-24 16:06:09 | INFO     | multi_agent_system:process_consultation:257 - Routed to general agent
+2025-08-24 16:06:14 | INFO     | quality_checker:improve_response_with_reprompting:197 - Attempt 1: Quality score 75.0
+2025-08-24 16:06:14 | INFO     | quality_checker:improve_response_with_reprompting:201 - Quality threshold met after 1 attempts
+2025-08-24 16:06:14 | INFO     | multi_agent_system:process_consultation:263 - Consultation metrics - Agent: general, Quality: 75.0, Confidence: 0.75, Attempts: 1, Context chunks: 5
+2025-08-24 16:06:14 | INFO     | multi_agent_system:process_consultation:269 - Consultation completed - Quality: 75.0, Confidence: 0.75
+2025-08-24 16:06:14 | DEBUG    | memory_manager:add_message:91 - Added assistant message to conversation 9d58201e63c418bb
+2025-08-24 16:06:14 | DEBUG    | memory_manager:save_conversation:270 - Saved conversation 9d58201e63c418bb to storage
+2025-08-24 16:06:14 | INFO     | advanced_app:advanced_chat_endpoint:188 - ✅ Response generated - Agent: general, Quality: 75.0, Time: 18968ms
+2025-08-24 16:06:39 | INFO     | advanced_app:advanced_chat_endpoint:150 - 📝 Received message: do you do dental implants...
+2025-08-24 16:06:39 | INFO     | memory_manager:get_conversation:248 - Created new conversation for session 7fa4ebce5181eabc
+2025-08-24 16:06:39 | DEBUG    | memory_manager:add_message:91 - Added user message to conversation 7fa4ebce5181eabc
+2025-08-24 16:06:39 | INFO     | multi_agent_system:process_consultation:248 - Processing consultation: do you do dental implants...
+2025-08-24 16:06:43 | INFO     | advanced_rag:query_expansion:211 - Query expanded with 5 additional terms
+2025-08-24 16:07:06 | INFO     | advanced_rag:enhanced_retrieval:61 - Retrieved 10 chunks using enhanced OpenAI approach
+2025-08-24 16:07:06 | INFO     | advanced_rag:context_optimization:182 - Optimized context: 1971 tokens, 5 chunks
+2025-08-24 16:07:06 | INFO     | multi_agent_system:process_consultation:257 - Routed to treatment agent
+2025-08-24 16:07:14 | INFO     | quality_checker:improve_response_with_reprompting:197 - Attempt 1: Quality score 75.0
+2025-08-24 16:07:14 | INFO     | quality_checker:improve_response_with_reprompting:201 - Quality threshold met after 1 attempts
+2025-08-24 16:07:14 | INFO     | multi_agent_system:process_consultation:263 - Consultation metrics - Agent: treatment, Quality: 75.0, Confidence: 0.75, Attempts: 1, Context chunks: 5
+2025-08-24 16:07:14 | INFO     | multi_agent_system:process_consultation:269 - Consultation completed - Quality: 75.0, Confidence: 0.75
+2025-08-24 16:07:14 | DEBUG    | memory_manager:add_message:91 - Added assistant message to conversation 7fa4ebce5181eabc
+2025-08-24 16:07:14 | DEBUG    | memory_manager:save_conversation:270 - Saved conversation 7fa4ebce5181eabc to storage
+2025-08-24 16:07:14 | INFO     | advanced_app:advanced_chat_endpoint:188 - ✅ Response generated - Agent: treatment, Quality: 75.0, Time: 34602ms
+2025-08-24 16:13:39 | INFO     | __main__:setup_logging:52 - 🚀 Advanced logging system initialized
+2025-08-24 16:13:39 | INFO     | __main__:create_directories:172 - 📁 Creating necessary directories...
+2025-08-24 16:13:39 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: logs
+2025-08-24 16:13:39 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: conversation_memory
+2025-08-24 16:13:39 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: temp
+2025-08-24 16:13:39 | INFO     | __main__:create_directories:185 - ✅ Directory structure ready
+2025-08-24 16:13:39 | INFO     | __main__:check_advanced_dependencies:140 - 🔧 Checking advanced AI dependencies...
+2025-08-24 16:13:39 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ openai available
+2025-08-24 16:13:39 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ pinecone available
+2025-08-24 16:13:39 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ fastapi available
+2025-08-24 16:13:39 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ uvicorn available
+2025-08-24 16:13:39 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ tiktoken available
+2025-08-24 16:13:39 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ loguru available
+2025-08-24 16:13:39 | INFO     | __main__:check_advanced_dependencies:166 - ✅ All advanced AI dependencies available
+2025-08-24 16:13:39 | INFO     | __main__:check_environment:57 - 🔍 Checking environment configuration...
+2025-08-24 16:13:42 | INFO     | __main__:check_environment:86 - ✅ OpenAI API connection successful
+2025-08-24 16:13:44 | INFO     | __main__:check_environment:95 - ✅ Pinecone API connection successful
+2025-08-24 16:13:44 | INFO     | __main__:check_environment:100 - ✅ Environment configuration check complete
+2025-08-24 16:13:44 | INFO     | __main__:setup_data:106 - 📊 Setting up data for advanced AI system...
+2025-08-24 16:13:44 | INFO     | __main__:setup_data:116 - 🔍 Validating data chunks...
+2025-08-24 16:13:50 | INFO     | __main__:setup_data:119 - ✅ Data validation complete: 65,259 words, 1090 chunks
+2025-08-24 16:13:50 | INFO     | __main__:setup_data:127 - ✅ Data already loaded in Pinecone: 1090 vectors
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:190 - 🎯 Advanced AI Dental Chatbot System Information:
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:191 - ============================================================
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:192 - 🤖 AI Features:
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:193 -    • Multi-Agent System (Diagnostic, Treatment, Prevention, Emergency)
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:194 -    • Chain-of-Thought Reasoning
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:195 -    • Automatic Response Quality Checking
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:196 -    • Intelligent Reprompting for Better Responses
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:197 -    • Advanced RAG with OpenAI Embeddings
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:198 -    • Conversation Memory and Context Management
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:199 -    • Query Expansion and Relevance Boosting
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:200 - 
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:201 - 🏥 Medical Expertise:
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:202 -    • Dr. Meenakshi Tomar's 30+ years experience
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:203 -    • Specialized in full mouth reconstruction
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:204 -    • WCLI certified laser surgery
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:205 -    • Evidence-based treatment recommendations
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:206 - 
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:207 - 🔧 Technical Stack:
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:208 -    • OpenAI GPT-4o-mini with advanced prompting
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:209 -    • OpenAI text-embedding-3-small for embeddings
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:210 -    • Pinecone vector database for knowledge retrieval
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:211 -    • FastAPI with async processing
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:212 -    • Advanced query expansion and relevance scoring
+2025-08-24 16:13:50 | INFO     | __main__:display_system_info:213 - ============================================================
+2025-08-24 16:13:50 | INFO     | __main__:start_advanced_server:218 - 🚀 Starting Advanced AI Dental Chatbot Server...
+2025-08-24 16:13:50 | INFO     | __main__:start_advanced_server:231 - 🌐 Server starting on http://127.0.0.1:8000
+2025-08-24 16:13:50 | INFO     | __main__:start_advanced_server:232 - 📱 Advanced chat interface available at: http://127.0.0.1:8000/advanced_chat.html
+2025-08-24 16:13:50 | INFO     | __main__:start_advanced_server:233 - 🔍 Health check endpoint: http://127.0.0.1:8000/health
+2025-08-24 16:13:50 | INFO     | __main__:start_advanced_server:234 - 📊 System stats endpoint: http://127.0.0.1:8000/stats
+2025-08-24 16:13:50 | INFO     | advanced_app:startup_event:93 - 🚀 Starting Advanced Dr. Chatbot server...
+2025-08-24 16:13:50 | INFO     | advanced_app:startup_event:97 - ✅ OpenAI client initialized
+2025-08-24 16:13:50 | INFO     | advanced_app:startup_event:100 - ✅ Standard logging monitoring initialized
+2025-08-24 16:13:50 | INFO     | memory_manager:__init__:212 - Memory Manager initialized with storage: conversation_memory
+2025-08-24 16:13:50 | INFO     | advanced_app:startup_event:104 - ✅ Memory Manager initialized
+2025-08-24 16:13:51 | INFO     | advanced_rag:__init__:35 - Advanced RAG Pipeline initialized with OpenAI embeddings
+2025-08-24 16:13:51 | INFO     | multi_agent_system:__init__:225 - Multi-Agent System monitoring via standard logging
+2025-08-24 16:13:51 | INFO     | multi_agent_system:__init__:227 - Multi-Agent System initialized with all specialist agents
+2025-08-24 16:13:51 | INFO     | advanced_app:startup_event:111 - ✅ Multi-Agent Orchestrator initialized
+2025-08-24 16:13:51 | INFO     | advanced_app:startup_event:116 - 🎉 Advanced AI Agent System ready!
+2025-08-24 16:15:28 | INFO     | advanced_app:advanced_chat_endpoint:150 - 📝 Received message: i have facing pain in my tooth...
+2025-08-24 16:15:28 | INFO     | memory_manager:get_conversation:248 - Created new conversation for session 83ce82a1e9d22c9f
+2025-08-24 16:15:28 | DEBUG    | memory_manager:add_message:91 - Added user message to conversation 83ce82a1e9d22c9f
+2025-08-24 16:15:28 | INFO     | multi_agent_system:process_consultation:248 - Processing consultation: i have facing pain in my tooth...
+2025-08-24 16:15:34 | INFO     | advanced_rag:query_expansion:211 - Query expanded with 5 additional terms
+2025-08-24 16:15:41 | INFO     | advanced_rag:enhanced_retrieval:61 - Retrieved 10 chunks using enhanced OpenAI approach
+2025-08-24 16:15:41 | INFO     | advanced_rag:context_optimization:182 - Optimized context: 1983 tokens, 5 chunks
+2025-08-24 16:15:41 | INFO     | multi_agent_system:process_consultation:257 - Routed to diagnostic agent
+2025-08-24 16:15:43 | INFO     | quality_checker:improve_response_with_reprompting:197 - Attempt 1: Quality score 87.5
+2025-08-24 16:15:43 | INFO     | quality_checker:improve_response_with_reprompting:201 - Quality threshold met after 1 attempts
+2025-08-24 16:15:43 | INFO     | multi_agent_system:process_consultation:263 - Consultation metrics - Agent: diagnostic, Quality: 87.5, Confidence: 0.88, Attempts: 1, Context chunks: 5
+2025-08-24 16:15:43 | INFO     | multi_agent_system:process_consultation:269 - Consultation completed - Quality: 87.5, Confidence: 0.88
+2025-08-24 16:15:43 | DEBUG    | memory_manager:add_message:91 - Added assistant message to conversation 83ce82a1e9d22c9f
+2025-08-24 16:15:43 | DEBUG    | memory_manager:save_conversation:270 - Saved conversation 83ce82a1e9d22c9f to storage
+2025-08-24 16:15:43 | INFO     | advanced_app:advanced_chat_endpoint:188 - ✅ Response generated - Agent: diagnostic, Quality: 87.5, Time: 14709ms
+2025-08-24 16:25:52 | DEBUG    | memory_manager:save_conversation:270 - Saved conversation 83ce82a1e9d22c9f to storage
+2025-08-24 16:25:52 | INFO     | advanced_app:shutdown_event:364 - 💾 All conversations saved
+2025-08-24 16:25:52 | INFO     | advanced_app:shutdown_event:367 - Session ended successfully
+2025-08-24 16:25:52 | INFO     | advanced_app:shutdown_event:369 - 👋 Advanced AI Agent System shutdown complete
+2025-08-24 16:31:53 | INFO     | __main__:setup_logging:52 - 🚀 Advanced logging system initialized
+2025-08-24 16:31:53 | INFO     | __main__:create_directories:172 - 📁 Creating necessary directories...
+2025-08-24 16:31:53 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: logs
+2025-08-24 16:31:53 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: conversation_memory
+2025-08-24 16:31:53 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: temp
+2025-08-24 16:31:53 | INFO     | __main__:create_directories:185 - ✅ Directory structure ready
+2025-08-24 16:31:53 | INFO     | __main__:check_advanced_dependencies:140 - 🔧 Checking advanced AI dependencies...
+2025-08-24 16:31:53 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ openai available
+2025-08-24 16:31:53 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ pinecone available
+2025-08-24 16:31:53 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ fastapi available
+2025-08-24 16:31:53 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ uvicorn available
+2025-08-24 16:31:53 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ tiktoken available
+2025-08-24 16:31:53 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ loguru available
+2025-08-24 16:31:53 | INFO     | __main__:check_advanced_dependencies:166 - ✅ All advanced AI dependencies available
+2025-08-24 16:31:53 | INFO     | __main__:check_environment:57 - 🔍 Checking environment configuration...
+2025-08-24 16:31:53 | ERROR    | __main__:check_environment:88 - ❌ OpenAI API connection failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-08-24 16:31:53 | ERROR    | __main__:main:257 - ❌ Environment check failed. Please check your configuration.
+2025-08-24 16:35:31 | INFO     | __main__:setup_logging:52 - 🚀 Advanced logging system initialized
+2025-08-24 16:35:31 | INFO     | __main__:create_directories:172 - 📁 Creating necessary directories...
+2025-08-24 16:35:31 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: logs
+2025-08-24 16:35:31 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: conversation_memory
+2025-08-24 16:35:31 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: temp
+2025-08-24 16:35:31 | INFO     | __main__:create_directories:185 - ✅ Directory structure ready
+2025-08-24 16:35:31 | INFO     | __main__:check_advanced_dependencies:140 - 🔧 Checking advanced AI dependencies...
+2025-08-24 16:35:31 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ openai available
+2025-08-24 16:35:31 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ pinecone available
+2025-08-24 16:35:31 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ fastapi available
+2025-08-24 16:35:31 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ uvicorn available
+2025-08-24 16:35:31 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ tiktoken available
+2025-08-24 16:35:31 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ loguru available
+2025-08-24 16:35:31 | INFO     | __main__:check_advanced_dependencies:166 - ✅ All advanced AI dependencies available
+2025-08-24 16:35:31 | INFO     | __main__:check_environment:57 - 🔍 Checking environment configuration...
+2025-08-24 16:35:31 | ERROR    | __main__:check_environment:88 - ❌ OpenAI API connection failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-08-24 16:35:31 | ERROR    | __main__:main:257 - ❌ Environment check failed. Please check your configuration.
+2025-08-24 16:45:19 | INFO     | __main__:setup_logging:52 - 🚀 Advanced logging system initialized
+2025-08-24 16:45:19 | INFO     | __main__:create_directories:172 - 📁 Creating necessary directories...
+2025-08-24 16:45:19 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: logs
+2025-08-24 16:45:19 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: conversation_memory
+2025-08-24 16:45:19 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: temp
+2025-08-24 16:45:19 | INFO     | __main__:create_directories:185 - ✅ Directory structure ready
+2025-08-24 16:45:19 | INFO     | __main__:check_advanced_dependencies:140 - 🔧 Checking advanced AI dependencies...
+2025-08-24 16:45:19 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ openai available
+2025-08-24 16:45:19 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ pinecone available
+2025-08-24 16:45:19 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ fastapi available
+2025-08-24 16:45:19 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ uvicorn available
+2025-08-24 16:45:19 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ tiktoken available
+2025-08-24 16:45:19 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ loguru available
+2025-08-24 16:45:19 | INFO     | __main__:check_advanced_dependencies:166 - ✅ All advanced AI dependencies available
+2025-08-24 16:45:19 | INFO     | __main__:check_environment:57 - 🔍 Checking environment configuration...
+2025-08-24 16:45:21 | INFO     | __main__:check_environment:86 - ✅ OpenAI API connection successful
+2025-08-24 16:45:23 | INFO     | __main__:check_environment:95 - ✅ Pinecone API connection successful
+2025-08-24 16:45:23 | INFO     | __main__:check_environment:100 - ✅ Environment configuration check complete
+2025-08-24 16:45:23 | INFO     | __main__:setup_data:106 - 📊 Setting up data for advanced AI system...
+2025-08-24 16:45:23 | INFO     | __main__:setup_data:116 - 🔍 Validating data chunks...
+2025-08-24 16:45:31 | INFO     | __main__:setup_data:119 - ✅ Data validation complete: 65,259 words, 1090 chunks
+2025-08-24 16:45:31 | INFO     | __main__:setup_data:127 - ✅ Data already loaded in Pinecone: 1090 vectors
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:190 - 🎯 Advanced AI Dental Chatbot System Information:
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:191 - ============================================================
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:192 - 🤖 AI Features:
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:193 -    • Multi-Agent System (Diagnostic, Treatment, Prevention, Emergency)
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:194 -    • Chain-of-Thought Reasoning
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:195 -    • Automatic Response Quality Checking
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:196 -    • Intelligent Reprompting for Better Responses
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:197 -    • Advanced RAG with OpenAI Embeddings
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:198 -    • Conversation Memory and Context Management
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:199 -    • Query Expansion and Relevance Boosting
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:200 - 
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:201 - 🏥 Medical Expertise:
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:202 -    • Dr. Meenakshi Tomar's 30+ years experience
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:203 -    • Specialized in full mouth reconstruction
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:204 -    • WCLI certified laser surgery
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:205 -    • Evidence-based treatment recommendations
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:206 - 
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:207 - 🔧 Technical Stack:
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:208 -    • OpenAI GPT-4o-mini with advanced prompting
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:209 -    • OpenAI text-embedding-3-small for embeddings
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:210 -    • Pinecone vector database for knowledge retrieval
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:211 -    • FastAPI with async processing
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:212 -    • Advanced query expansion and relevance scoring
+2025-08-24 16:45:31 | INFO     | __main__:display_system_info:213 - ============================================================
+2025-08-24 16:45:31 | INFO     | __main__:start_advanced_server:218 - 🚀 Starting Advanced AI Dental Chatbot Server...
+2025-08-24 16:45:31 | INFO     | __main__:start_advanced_server:231 - 🌐 Server starting on http://127.0.0.1:8000
+2025-08-24 16:45:31 | INFO     | __main__:start_advanced_server:232 - 📱 Advanced chat interface available at: http://127.0.0.1:8000/advanced_chat.html
+2025-08-24 16:45:31 | INFO     | __main__:start_advanced_server:233 - 🔍 Health check endpoint: http://127.0.0.1:8000/health
+2025-08-24 16:45:31 | INFO     | __main__:start_advanced_server:234 - 📊 System stats endpoint: http://127.0.0.1:8000/stats
+2025-08-24 16:45:32 | INFO     | advanced_app:startup_event:93 - 🚀 Starting Advanced Dr. Chatbot server...
+2025-08-24 16:45:32 | INFO     | advanced_app:startup_event:97 - ✅ OpenAI client initialized
+2025-08-24 16:45:32 | INFO     | advanced_app:startup_event:100 - ✅ Standard logging monitoring initialized
+2025-08-24 16:45:32 | INFO     | memory_manager:__init__:212 - Memory Manager initialized with storage: conversation_memory
+2025-08-24 16:45:32 | INFO     | advanced_app:startup_event:104 - ✅ Memory Manager initialized
+2025-08-24 16:45:32 | INFO     | advanced_rag:__init__:35 - Advanced RAG Pipeline initialized with OpenAI embeddings
+2025-08-24 16:45:32 | INFO     | multi_agent_system:__init__:225 - Multi-Agent System monitoring via standard logging
+2025-08-24 16:45:32 | INFO     | multi_agent_system:__init__:227 - Multi-Agent System initialized with all specialist agents
+2025-08-24 16:45:32 | INFO     | advanced_app:startup_event:111 - ✅ Multi-Agent Orchestrator initialized
+2025-08-24 16:45:32 | INFO     | advanced_app:startup_event:116 - 🎉 Advanced AI Agent System ready!
+2025-08-24 16:46:14 | INFO     | advanced_app:advanced_chat_endpoint:150 - 📝 Received message: do you do dental implants...
+2025-08-24 16:46:14 | INFO     | memory_manager:get_conversation:248 - Created new conversation for session beb9ef247f864da4
+2025-08-24 16:46:14 | DEBUG    | memory_manager:add_message:91 - Added user message to conversation beb9ef247f864da4
+2025-08-24 16:46:14 | INFO     | multi_agent_system:process_consultation:248 - Processing consultation: do you do dental implants...
+2025-08-24 16:46:23 | INFO     | advanced_rag:query_expansion:211 - Query expanded with 5 additional terms
+2025-08-24 16:46:30 | INFO     | advanced_rag:enhanced_retrieval:61 - Retrieved 10 chunks using enhanced OpenAI approach
+2025-08-24 16:46:30 | INFO     | advanced_rag:context_optimization:182 - Optimized context: 1971 tokens, 5 chunks
+2025-08-24 16:46:30 | INFO     | multi_agent_system:process_consultation:257 - Routed to treatment agent
+2025-08-24 16:46:36 | INFO     | quality_checker:improve_response_with_reprompting:197 - Attempt 1: Quality score 87.5
+2025-08-24 16:46:36 | INFO     | quality_checker:improve_response_with_reprompting:201 - Quality threshold met after 1 attempts
+2025-08-24 16:46:36 | INFO     | multi_agent_system:process_consultation:263 - Consultation metrics - Agent: treatment, Quality: 87.5, Confidence: 0.88, Attempts: 1, Context chunks: 5
+2025-08-24 16:46:36 | INFO     | multi_agent_system:process_consultation:269 - Consultation completed - Quality: 87.5, Confidence: 0.88
+2025-08-24 16:46:36 | DEBUG    | memory_manager:add_message:91 - Added assistant message to conversation beb9ef247f864da4
+2025-08-24 16:46:36 | DEBUG    | memory_manager:save_conversation:270 - Saved conversation beb9ef247f864da4 to storage
+2025-08-24 16:46:36 | INFO     | advanced_app:advanced_chat_endpoint:188 - ✅ Response generated - Agent: treatment, Quality: 87.5, Time: 21631ms
+2025-08-24 16:53:27 | DEBUG    | memory_manager:save_conversation:270 - Saved conversation beb9ef247f864da4 to storage
+2025-08-24 16:53:27 | INFO     | advanced_app:shutdown_event:364 - 💾 All conversations saved
+2025-08-24 16:53:27 | INFO     | advanced_app:shutdown_event:367 - Session ended successfully
+2025-08-24 16:53:27 | INFO     | advanced_app:shutdown_event:369 - 👋 Advanced AI Agent System shutdown complete
+2025-08-24 16:53:48 | INFO     | __main__:setup_logging:52 - 🚀 Advanced logging system initialized
+2025-08-24 16:53:48 | INFO     | __main__:create_directories:172 - 📁 Creating necessary directories...
+2025-08-24 16:53:48 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: logs
+2025-08-24 16:53:48 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: conversation_memory
+2025-08-24 16:53:48 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: temp
+2025-08-24 16:53:48 | INFO     | __main__:create_directories:185 - ✅ Directory structure ready
+2025-08-24 16:53:48 | INFO     | __main__:check_advanced_dependencies:140 - 🔧 Checking advanced AI dependencies...
+2025-08-24 16:53:48 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ openai available
+2025-08-24 16:53:48 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ pinecone available
+2025-08-24 16:53:48 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ fastapi available
+2025-08-24 16:53:48 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ uvicorn available
+2025-08-24 16:53:48 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ tiktoken available
+2025-08-24 16:53:48 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ loguru available
+2025-08-24 16:53:48 | INFO     | __main__:check_advanced_dependencies:166 - ✅ All advanced AI dependencies available
+2025-08-24 16:53:48 | INFO     | __main__:check_environment:57 - 🔍 Checking environment configuration...
+2025-08-24 16:53:51 | INFO     | __main__:check_environment:86 - ✅ OpenAI API connection successful
+2025-08-24 16:53:53 | INFO     | __main__:check_environment:95 - ✅ Pinecone API connection successful
+2025-08-24 16:53:53 | INFO     | __main__:check_environment:100 - ✅ Environment configuration check complete
+2025-08-24 16:53:53 | INFO     | __main__:setup_data:106 - 📊 Setting up data for advanced AI system...
+2025-08-24 16:53:53 | INFO     | __main__:setup_data:116 - 🔍 Validating data chunks...
+2025-08-24 16:53:59 | INFO     | __main__:setup_data:119 - ✅ Data validation complete: 65,259 words, 1090 chunks
+2025-08-24 16:53:59 | INFO     | __main__:setup_data:127 - ✅ Data already loaded in Pinecone: 1090 vectors
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:190 - 🎯 Advanced AI Dental Chatbot System Information:
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:191 - ============================================================
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:192 - 🤖 AI Features:
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:193 -    • Multi-Agent System (Diagnostic, Treatment, Prevention, Emergency)
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:194 -    • Chain-of-Thought Reasoning
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:195 -    • Automatic Response Quality Checking
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:196 -    • Intelligent Reprompting for Better Responses
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:197 -    • Advanced RAG with OpenAI Embeddings
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:198 -    • Conversation Memory and Context Management
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:199 -    • Query Expansion and Relevance Boosting
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:200 - 
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:201 - 🏥 Medical Expertise:
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:202 -    • Dr. Meenakshi Tomar's 30+ years experience
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:203 -    • Specialized in full mouth reconstruction
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:204 -    • WCLI certified laser surgery
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:205 -    • Evidence-based treatment recommendations
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:206 - 
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:207 - 🔧 Technical Stack:
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:208 -    • OpenAI GPT-4o-mini with advanced prompting
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:209 -    • OpenAI text-embedding-3-small for embeddings
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:210 -    • Pinecone vector database for knowledge retrieval
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:211 -    • FastAPI with async processing
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:212 -    • Advanced query expansion and relevance scoring
+2025-08-24 16:53:59 | INFO     | __main__:display_system_info:213 - ============================================================
+2025-08-24 16:53:59 | INFO     | __main__:start_advanced_server:218 - 🚀 Starting Advanced AI Dental Chatbot Server...
+2025-08-24 16:53:59 | INFO     | __main__:start_advanced_server:231 - 🌐 Server starting on http://127.0.0.1:8000
+2025-08-24 16:53:59 | INFO     | __main__:start_advanced_server:232 - 📱 Advanced chat interface available at: http://127.0.0.1:8000/advanced_chat.html
+2025-08-24 16:53:59 | INFO     | __main__:start_advanced_server:233 - 🔍 Health check endpoint: http://127.0.0.1:8000/health
+2025-08-24 16:53:59 | INFO     | __main__:start_advanced_server:234 - 📊 System stats endpoint: http://127.0.0.1:8000/stats
+2025-08-24 16:53:59 | INFO     | advanced_app:startup_event:93 - 🚀 Starting Advanced Dr. Chatbot server...
+2025-08-24 16:53:59 | INFO     | advanced_app:startup_event:97 - ✅ OpenAI client initialized
+2025-08-24 16:53:59 | INFO     | advanced_app:startup_event:100 - ✅ Standard logging monitoring initialized
+2025-08-24 16:53:59 | INFO     | memory_manager:__init__:212 - Memory Manager initialized with storage: conversation_memory
+2025-08-24 16:53:59 | INFO     | advanced_app:startup_event:104 - ✅ Memory Manager initialized
+2025-08-24 16:53:59 | INFO     | advanced_rag:__init__:35 - Advanced RAG Pipeline initialized with OpenAI embeddings
+2025-08-24 16:53:59 | INFO     | multi_agent_system:__init__:225 - Multi-Agent System monitoring via standard logging
+2025-08-24 16:53:59 | INFO     | multi_agent_system:__init__:227 - Multi-Agent System initialized with all specialist agents
+2025-08-24 16:53:59 | INFO     | advanced_app:startup_event:111 - ✅ Multi-Agent Orchestrator initialized
+2025-08-24 16:53:59 | INFO     | advanced_app:startup_event:116 - 🎉 Advanced AI Agent System ready!
+2025-08-24 16:54:11 | INFO     | advanced_app:advanced_chat_endpoint:150 - 📝 Received message: do you do dental implants...
+2025-08-24 16:54:11 | INFO     | memory_manager:get_conversation:248 - Created new conversation for session 120626bb288e9656
+2025-08-24 16:54:11 | DEBUG    | memory_manager:add_message:91 - Added user message to conversation 120626bb288e9656
+2025-08-24 16:54:11 | INFO     | multi_agent_system:process_consultation:248 - Processing consultation: do you do dental implants...
+2025-08-24 16:54:16 | INFO     | advanced_rag:query_expansion:211 - Query expanded with 5 additional terms
+2025-08-24 16:54:23 | INFO     | advanced_rag:enhanced_retrieval:61 - Retrieved 10 chunks using enhanced OpenAI approach
+2025-08-24 16:54:23 | INFO     | advanced_rag:context_optimization:182 - Optimized context: 1971 tokens, 5 chunks
+2025-08-24 16:54:23 | INFO     | multi_agent_system:process_consultation:257 - Routed to treatment agent
+2025-08-24 16:54:25 | INFO     | quality_checker:improve_response_with_reprompting:201 - Attempt 1: Quality score 62.5
+2025-08-24 16:54:26 | INFO     | quality_checker:improve_response_with_reprompting:201 - Attempt 2: Quality score 75.0
+2025-08-24 16:54:26 | INFO     | quality_checker:improve_response_with_reprompting:205 - Quality threshold met after 2 attempts
+2025-08-24 16:54:26 | INFO     | multi_agent_system:process_consultation:263 - Consultation metrics - Agent: treatment, Quality: 75.0, Confidence: 0.65, Attempts: 2, Context chunks: 5
+2025-08-24 16:54:26 | INFO     | multi_agent_system:process_consultation:269 - Consultation completed - Quality: 75.0, Confidence: 0.65
+2025-08-24 16:54:26 | DEBUG    | memory_manager:add_message:91 - Added assistant message to conversation 120626bb288e9656
+2025-08-24 16:54:26 | DEBUG    | memory_manager:save_conversation:270 - Saved conversation 120626bb288e9656 to storage
+2025-08-24 16:54:26 | INFO     | advanced_app:advanced_chat_endpoint:188 - ✅ Response generated - Agent: treatment, Quality: 75.0, Time: 15190ms
+2025-08-24 17:02:21 | INFO     | __main__:setup_logging:52 - 🚀 Advanced logging system initialized
+2025-08-24 17:02:21 | INFO     | __main__:create_directories:172 - 📁 Creating necessary directories...
+2025-08-24 17:02:21 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: logs
+2025-08-24 17:02:21 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: conversation_memory
+2025-08-24 17:02:21 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: temp
+2025-08-24 17:02:21 | INFO     | __main__:create_directories:185 - ✅ Directory structure ready
+2025-08-24 17:02:21 | INFO     | __main__:check_advanced_dependencies:140 - 🔧 Checking advanced AI dependencies...
+2025-08-24 17:02:21 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ openai available
+2025-08-24 17:02:21 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ pinecone available
+2025-08-24 17:02:21 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ fastapi available
+2025-08-24 17:02:21 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ uvicorn available
+2025-08-24 17:02:21 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ tiktoken available
+2025-08-24 17:02:21 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ loguru available
+2025-08-24 17:02:21 | INFO     | __main__:check_advanced_dependencies:166 - ✅ All advanced AI dependencies available
+2025-08-24 17:02:21 | INFO     | __main__:check_environment:57 - 🔍 Checking environment configuration...
+2025-08-24 17:02:23 | INFO     | __main__:check_environment:86 - ✅ OpenAI API connection successful
+2025-08-24 17:02:26 | INFO     | __main__:check_environment:95 - ✅ Pinecone API connection successful
+2025-08-24 17:02:26 | INFO     | __main__:check_environment:100 - ✅ Environment configuration check complete
+2025-08-24 17:02:26 | INFO     | __main__:setup_data:106 - 📊 Setting up data for advanced AI system...
+2025-08-24 17:02:26 | INFO     | __main__:setup_data:116 - 🔍 Validating data chunks...
+2025-08-24 17:02:31 | INFO     | __main__:setup_data:119 - ✅ Data validation complete: 65,259 words, 1090 chunks
+2025-08-24 17:02:31 | INFO     | __main__:setup_data:127 - ✅ Data already loaded in Pinecone: 1090 vectors
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:190 - 🎯 Advanced AI Dental Chatbot System Information:
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:191 - ============================================================
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:192 - 🤖 AI Features:
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:193 -    • Multi-Agent System (Diagnostic, Treatment, Prevention, Emergency)
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:194 -    • Chain-of-Thought Reasoning
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:195 -    • Automatic Response Quality Checking
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:196 -    • Intelligent Reprompting for Better Responses
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:197 -    • Advanced RAG with OpenAI Embeddings
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:198 -    • Conversation Memory and Context Management
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:199 -    • Query Expansion and Relevance Boosting
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:200 - 
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:201 - 🏥 Medical Expertise:
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:202 -    • Dr. Meenakshi Tomar's 30+ years experience
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:203 -    • Specialized in full mouth reconstruction
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:204 -    • WCLI certified laser surgery
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:205 -    • Evidence-based treatment recommendations
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:206 - 
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:207 - 🔧 Technical Stack:
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:208 -    • OpenAI GPT-4o-mini with advanced prompting
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:209 -    • OpenAI text-embedding-3-small for embeddings
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:210 -    • Pinecone vector database for knowledge retrieval
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:211 -    • FastAPI with async processing
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:212 -    • Advanced query expansion and relevance scoring
+2025-08-24 17:02:31 | INFO     | __main__:display_system_info:213 - ============================================================
+2025-08-24 17:02:31 | INFO     | __main__:start_advanced_server:218 - 🚀 Starting Advanced AI Dental Chatbot Server...
+2025-08-24 17:02:31 | INFO     | __main__:start_advanced_server:231 - 🌐 Server starting on http://127.0.0.1:8000
+2025-08-24 17:02:31 | INFO     | __main__:start_advanced_server:232 - 📱 Advanced chat interface available at: http://127.0.0.1:8000/advanced_chat.html
+2025-08-24 17:02:31 | INFO     | __main__:start_advanced_server:233 - 🔍 Health check endpoint: http://127.0.0.1:8000/health
+2025-08-24 17:02:31 | INFO     | __main__:start_advanced_server:234 - 📊 System stats endpoint: http://127.0.0.1:8000/stats
+2025-08-24 17:02:31 | INFO     | advanced_app:startup_event:93 - 🚀 Starting Advanced Dr. Chatbot server...
+2025-08-24 17:02:32 | INFO     | advanced_app:startup_event:97 - ✅ OpenAI client initialized
+2025-08-24 17:02:32 | INFO     | advanced_app:startup_event:100 - ✅ Standard logging monitoring initialized
+2025-08-24 17:02:32 | INFO     | memory_manager:__init__:212 - Memory Manager initialized with storage: conversation_memory
+2025-08-24 17:02:32 | INFO     | advanced_app:startup_event:104 - ✅ Memory Manager initialized
+2025-08-24 17:02:32 | INFO     | advanced_rag:__init__:35 - Advanced RAG Pipeline initialized with OpenAI embeddings
+2025-08-24 17:02:32 | INFO     | multi_agent_system:__init__:225 - Multi-Agent System monitoring via standard logging
+2025-08-24 17:02:32 | INFO     | multi_agent_system:__init__:227 - Multi-Agent System initialized with all specialist agents
+2025-08-24 17:02:32 | INFO     | advanced_app:startup_event:111 - ✅ Multi-Agent Orchestrator initialized
+2025-08-24 17:02:32 | INFO     | advanced_app:startup_event:116 - 🎉 Advanced AI Agent System ready!
+2025-08-24 17:03:15 | INFO     | advanced_app:advanced_chat_endpoint:150 - 📝 Received message: i have some issue in my tooth regarding decay can you solve it...
+2025-08-24 17:03:15 | INFO     | memory_manager:get_conversation:248 - Created new conversation for session 783a962a1a567317
+2025-08-24 17:03:15 | DEBUG    | memory_manager:add_message:91 - Added user message to conversation 783a962a1a567317
+2025-08-24 17:03:15 | INFO     | multi_agent_system:process_consultation:248 - Processing consultation: i have some issue in my tooth regarding decay can ...
+2025-08-24 17:03:21 | INFO     | advanced_rag:query_expansion:211 - Query expanded with 5 additional terms
+2025-08-24 17:03:27 | INFO     | advanced_rag:enhanced_retrieval:61 - Retrieved 10 chunks using enhanced OpenAI approach
+2025-08-24 17:03:27 | INFO     | advanced_rag:context_optimization:182 - Optimized context: 2064 tokens, 5 chunks
+2025-08-24 17:03:27 | INFO     | multi_agent_system:process_consultation:257 - Routed to diagnostic agent
+2025-08-24 17:03:29 | INFO     | quality_checker:improve_response_with_reprompting:201 - Attempt 1: Quality score 75.0
+2025-08-24 17:03:29 | INFO     | quality_checker:improve_response_with_reprompting:205 - Quality threshold met after 1 attempts
+2025-08-24 17:03:29 | INFO     | multi_agent_system:process_consultation:263 - Consultation metrics - Agent: diagnostic, Quality: 75.0, Confidence: 0.75, Attempts: 1, Context chunks: 5
+2025-08-24 17:03:29 | INFO     | multi_agent_system:process_consultation:269 - Consultation completed - Quality: 75.0, Confidence: 0.75
+2025-08-24 17:03:29 | DEBUG    | memory_manager:add_message:91 - Added assistant message to conversation 783a962a1a567317
+2025-08-24 17:03:29 | DEBUG    | memory_manager:save_conversation:270 - Saved conversation 783a962a1a567317 to storage
+2025-08-24 17:03:29 | INFO     | advanced_app:advanced_chat_endpoint:188 - ✅ Response generated - Agent: diagnostic, Quality: 75.0, Time: 13738ms
+2025-08-24 17:10:24 | INFO     | advanced_app:advanced_chat_endpoint:150 - 📝 Received message: do you do dental implants...
+2025-08-24 17:10:24 | DEBUG    | memory_manager:add_message:91 - Added user message to conversation 783a962a1a567317
+2025-08-24 17:10:24 | INFO     | multi_agent_system:process_consultation:248 - Processing consultation: do you do dental implants...
+2025-08-24 17:10:30 | INFO     | advanced_rag:query_expansion:211 - Query expanded with 5 additional terms
+2025-08-24 17:10:38 | INFO     | advanced_rag:enhanced_retrieval:61 - Retrieved 10 chunks using enhanced OpenAI approach
+2025-08-24 17:10:38 | INFO     | advanced_rag:context_optimization:182 - Optimized context: 1971 tokens, 5 chunks
+2025-08-24 17:10:38 | INFO     | multi_agent_system:process_consultation:257 - Routed to treatment agent
+2025-08-24 17:10:40 | INFO     | quality_checker:improve_response_with_reprompting:201 - Attempt 1: Quality score 75.0
+2025-08-24 17:10:40 | INFO     | quality_checker:improve_response_with_reprompting:205 - Quality threshold met after 1 attempts
+2025-08-24 17:10:40 | INFO     | multi_agent_system:process_consultation:263 - Consultation metrics - Agent: treatment, Quality: 75.0, Confidence: 0.75, Attempts: 1, Context chunks: 5
+2025-08-24 17:10:40 | INFO     | multi_agent_system:process_consultation:269 - Consultation completed - Quality: 75.0, Confidence: 0.75
+2025-08-24 17:10:40 | DEBUG    | memory_manager:add_message:91 - Added assistant message to conversation 783a962a1a567317
+2025-08-24 17:10:40 | DEBUG    | memory_manager:save_conversation:270 - Saved conversation 783a962a1a567317 to storage
+2025-08-24 17:10:40 | INFO     | advanced_app:advanced_chat_endpoint:188 - ✅ Response generated - Agent: treatment, Quality: 75.0, Time: 15639ms
+2025-08-24 17:14:16 | INFO     | advanced_app:advanced_chat_endpoint:150 - 📝 Received message: i want to know process about dental implants...
+2025-08-24 17:14:16 | DEBUG    | memory_manager:add_message:91 - Added user message to conversation 783a962a1a567317
+2025-08-24 17:14:16 | INFO     | multi_agent_system:process_consultation:248 - Processing consultation: i want to know process about dental implants...
+2025-08-24 17:14:21 | INFO     | advanced_rag:query_expansion:211 - Query expanded with 5 additional terms
+2025-08-24 17:14:30 | INFO     | advanced_rag:enhanced_retrieval:61 - Retrieved 10 chunks using enhanced OpenAI approach
+2025-08-24 17:14:30 | INFO     | advanced_rag:context_optimization:182 - Optimized context: 1974 tokens, 5 chunks
+2025-08-24 17:14:30 | INFO     | multi_agent_system:process_consultation:257 - Routed to treatment agent
+2025-08-24 17:14:32 | INFO     | quality_checker:improve_response_with_reprompting:201 - Attempt 1: Quality score 75.0
+2025-08-24 17:14:32 | INFO     | quality_checker:improve_response_with_reprompting:205 - Quality threshold met after 1 attempts
+2025-08-24 17:14:32 | INFO     | multi_agent_system:process_consultation:263 - Consultation metrics - Agent: treatment, Quality: 75.0, Confidence: 0.75, Attempts: 1, Context chunks: 5
+2025-08-24 17:14:32 | INFO     | multi_agent_system:process_consultation:269 - Consultation completed - Quality: 75.0, Confidence: 0.75
+2025-08-24 17:14:32 | DEBUG    | memory_manager:add_message:91 - Added assistant message to conversation 783a962a1a567317
+2025-08-24 17:14:32 | DEBUG    | memory_manager:save_conversation:270 - Saved conversation 783a962a1a567317 to storage
+2025-08-24 17:14:32 | INFO     | advanced_app:advanced_chat_endpoint:188 - ✅ Response generated - Agent: treatment, Quality: 75.0, Time: 15970ms
+2025-08-24 17:24:09 | DEBUG    | memory_manager:save_conversation:270 - Saved conversation 783a962a1a567317 to storage
+2025-08-24 17:24:09 | INFO     | advanced_app:shutdown_event:364 - 💾 All conversations saved
+2025-08-24 17:24:09 | INFO     | advanced_app:shutdown_event:367 - Session ended successfully
+2025-08-24 17:24:09 | INFO     | advanced_app:shutdown_event:369 - 👋 Advanced AI Agent System shutdown complete
+2025-08-24 17:24:16 | INFO     | __main__:setup_logging:52 - 🚀 Advanced logging system initialized
+2025-08-24 17:24:16 | INFO     | __main__:create_directories:172 - 📁 Creating necessary directories...
+2025-08-24 17:24:16 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: logs
+2025-08-24 17:24:16 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: conversation_memory
+2025-08-24 17:24:16 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: temp
+2025-08-24 17:24:16 | INFO     | __main__:create_directories:185 - ✅ Directory structure ready
+2025-08-24 17:24:16 | INFO     | __main__:check_advanced_dependencies:140 - 🔧 Checking advanced AI dependencies...
+2025-08-24 17:24:16 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ openai available
+2025-08-24 17:24:16 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ pinecone available
+2025-08-24 17:24:16 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ fastapi available
+2025-08-24 17:24:16 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ uvicorn available
+2025-08-24 17:24:16 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ tiktoken available
+2025-08-24 17:24:16 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ loguru available
+2025-08-24 17:24:16 | INFO     | __main__:check_advanced_dependencies:166 - ✅ All advanced AI dependencies available
+2025-08-24 17:24:16 | INFO     | __main__:check_environment:57 - 🔍 Checking environment configuration...
+2025-08-24 17:24:18 | INFO     | __main__:check_environment:86 - ✅ OpenAI API connection successful
+2025-08-24 17:24:20 | INFO     | __main__:check_environment:95 - ✅ Pinecone API connection successful
+2025-08-24 17:24:20 | INFO     | __main__:check_environment:100 - ✅ Environment configuration check complete
+2025-08-24 17:24:20 | INFO     | __main__:setup_data:106 - 📊 Setting up data for advanced AI system...
+2025-08-24 17:24:20 | INFO     | __main__:setup_data:116 - 🔍 Validating data chunks...
+2025-08-24 17:24:26 | INFO     | __main__:setup_data:119 - ✅ Data validation complete: 65,259 words, 1090 chunks
+2025-08-24 17:24:26 | INFO     | __main__:setup_data:127 - ✅ Data already loaded in Pinecone: 1090 vectors
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:190 - 🎯 Advanced AI Dental Chatbot System Information:
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:191 - ============================================================
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:192 - 🤖 AI Features:
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:193 -    • Multi-Agent System (Diagnostic, Treatment, Prevention, Emergency)
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:194 -    • Chain-of-Thought Reasoning
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:195 -    • Automatic Response Quality Checking
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:196 -    • Intelligent Reprompting for Better Responses
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:197 -    • Advanced RAG with OpenAI Embeddings
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:198 -    • Conversation Memory and Context Management
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:199 -    • Query Expansion and Relevance Boosting
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:200 - 
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:201 - 🏥 Medical Expertise:
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:202 -    • Dr. Meenakshi Tomar's 30+ years experience
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:203 -    • Specialized in full mouth reconstruction
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:204 -    • WCLI certified laser surgery
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:205 -    • Evidence-based treatment recommendations
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:206 - 
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:207 - 🔧 Technical Stack:
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:208 -    • OpenAI GPT-4o-mini with advanced prompting
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:209 -    • OpenAI text-embedding-3-small for embeddings
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:210 -    • Pinecone vector database for knowledge retrieval
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:211 -    • FastAPI with async processing
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:212 -    • Advanced query expansion and relevance scoring
+2025-08-24 17:24:26 | INFO     | __main__:display_system_info:213 - ============================================================
+2025-08-24 17:24:26 | INFO     | __main__:start_advanced_server:218 - 🚀 Starting Advanced AI Dental Chatbot Server...
+2025-08-24 17:24:26 | INFO     | __main__:start_advanced_server:231 - 🌐 Server starting on http://127.0.0.1:8000
+2025-08-24 17:24:26 | INFO     | __main__:start_advanced_server:232 - 📱 Advanced chat interface available at: http://127.0.0.1:8000/advanced_chat.html
+2025-08-24 17:24:26 | INFO     | __main__:start_advanced_server:233 - 🔍 Health check endpoint: http://127.0.0.1:8000/health
+2025-08-24 17:24:26 | INFO     | __main__:start_advanced_server:234 - 📊 System stats endpoint: http://127.0.0.1:8000/stats
+2025-08-24 17:24:26 | INFO     | advanced_app:startup_event:93 - 🚀 Starting Advanced Dr. Chatbot server...
+2025-08-24 17:24:26 | INFO     | advanced_app:startup_event:97 - ✅ OpenAI client initialized
+2025-08-24 17:24:26 | INFO     | advanced_app:startup_event:100 - ✅ Standard logging monitoring initialized
+2025-08-24 17:24:26 | INFO     | memory_manager:__init__:212 - Memory Manager initialized with storage: conversation_memory
+2025-08-24 17:24:26 | INFO     | advanced_app:startup_event:104 - ✅ Memory Manager initialized
+2025-08-24 17:24:26 | INFO     | advanced_rag:__init__:35 - Advanced RAG Pipeline initialized with OpenAI embeddings
+2025-08-24 17:24:26 | INFO     | multi_agent_system:__init__:225 - Multi-Agent System monitoring via standard logging
+2025-08-24 17:24:26 | INFO     | multi_agent_system:__init__:227 - Multi-Agent System initialized with all specialist agents
+2025-08-24 17:24:26 | INFO     | advanced_app:startup_event:111 - ✅ Multi-Agent Orchestrator initialized
+2025-08-24 17:24:26 | INFO     | advanced_app:startup_event:116 - 🎉 Advanced AI Agent System ready!
+2025-08-24 17:24:43 | INFO     | advanced_app:advanced_chat_endpoint:150 - 📝 Received message: Are amalgam (silver) fillings safe?...
+2025-08-24 17:24:43 | INFO     | memory_manager:get_conversation:248 - Created new conversation for session 0da38c9e53b88c3a
+2025-08-24 17:24:43 | DEBUG    | memory_manager:add_message:91 - Added user message to conversation 0da38c9e53b88c3a
+2025-08-24 17:24:43 | INFO     | multi_agent_system:process_consultation:248 - Processing consultation: Are amalgam (silver) fillings safe?...
+2025-08-24 17:24:49 | INFO     | advanced_rag:query_expansion:211 - Query expanded with 5 additional terms
+2025-08-24 17:24:58 | INFO     | advanced_rag:enhanced_retrieval:61 - Retrieved 10 chunks using enhanced OpenAI approach
+2025-08-24 17:24:58 | INFO     | advanced_rag:context_optimization:182 - Optimized context: 1794 tokens, 5 chunks
+2025-08-24 17:24:58 | INFO     | multi_agent_system:process_consultation:257 - Routed to treatment agent
+2025-08-24 17:25:00 | INFO     | quality_checker:improve_response_with_reprompting:207 - Attempt 1: Quality score 62.5
+2025-08-24 17:25:04 | INFO     | quality_checker:improve_response_with_reprompting:207 - Attempt 2: Quality score 50.0
+2025-08-24 17:25:07 | INFO     | quality_checker:improve_response_with_reprompting:207 - Attempt 3: Quality score 50.0
+2025-08-24 17:25:07 | WARNING  | quality_checker:improve_response_with_reprompting:216 - Max attempts (3) reached
+2025-08-24 17:25:07 | INFO     | multi_agent_system:process_consultation:263 - Consultation metrics - Agent: treatment, Quality: 50.0, Confidence: 0.30, Attempts: 3, Context chunks: 5
+2025-08-24 17:25:07 | INFO     | multi_agent_system:process_consultation:269 - Consultation completed - Quality: 50.0, Confidence: 0.30
+2025-08-24 17:25:07 | DEBUG    | memory_manager:add_message:91 - Added assistant message to conversation 0da38c9e53b88c3a
+2025-08-24 17:25:07 | DEBUG    | memory_manager:save_conversation:270 - Saved conversation 0da38c9e53b88c3a to storage
+2025-08-24 17:25:07 | INFO     | advanced_app:advanced_chat_endpoint:188 - ✅ Response generated - Agent: treatment, Quality: 50.0, Time: 24099ms
+2025-08-24 17:25:49 | INFO     | advanced_app:advanced_chat_endpoint:150 - 📝 Received message: who is modi...
+2025-08-24 17:25:49 | DEBUG    | memory_manager:add_message:91 - Added user message to conversation 0da38c9e53b88c3a
+2025-08-24 17:25:49 | INFO     | multi_agent_system:process_consultation:248 - Processing consultation: who is modi...
+2025-08-24 17:25:53 | INFO     | advanced_rag:query_expansion:211 - Query expanded with 5 additional terms
+2025-08-24 17:26:06 | INFO     | advanced_rag:enhanced_retrieval:61 - Retrieved 10 chunks using enhanced OpenAI approach
+2025-08-24 17:26:06 | INFO     | advanced_rag:context_optimization:182 - Optimized context: 2034 tokens, 5 chunks
+2025-08-24 17:26:06 | INFO     | multi_agent_system:process_consultation:257 - Routed to general agent
+2025-08-24 17:26:08 | INFO     | quality_checker:improve_response_with_reprompting:207 - Attempt 1: Quality score 62.5
+2025-08-24 17:26:10 | INFO     | quality_checker:improve_response_with_reprompting:207 - Attempt 2: Quality score 50.0
+2025-08-24 17:26:12 | INFO     | quality_checker:improve_response_with_reprompting:207 - Attempt 3: Quality score 62.5
+2025-08-24 17:26:12 | WARNING  | quality_checker:improve_response_with_reprompting:216 - Max attempts (3) reached
+2025-08-24 17:26:12 | INFO     | multi_agent_system:process_consultation:263 - Consultation metrics - Agent: general, Quality: 62.5, Confidence: 0.42, Attempts: 3, Context chunks: 5
+2025-08-24 17:26:12 | INFO     | multi_agent_system:process_consultation:269 - Consultation completed - Quality: 62.5, Confidence: 0.42
+2025-08-24 17:26:12 | DEBUG    | memory_manager:add_message:91 - Added assistant message to conversation 0da38c9e53b88c3a
+2025-08-24 17:26:12 | DEBUG    | memory_manager:save_conversation:270 - Saved conversation 0da38c9e53b88c3a to storage
+2025-08-24 17:26:12 | INFO     | advanced_app:advanced_chat_endpoint:188 - ✅ Response generated - Agent: general, Quality: 62.5, Time: 23259ms
+2025-08-24 17:28:26 | INFO     | advanced_app:advanced_chat_endpoint:150 - 📝 Received message: do you have facility of dental xray...
+2025-08-24 17:28:26 | DEBUG    | memory_manager:add_message:91 - Added user message to conversation 0da38c9e53b88c3a
+2025-08-24 17:28:26 | INFO     | multi_agent_system:process_consultation:248 - Processing consultation: do you have facility of dental xray...
+2025-08-24 17:28:36 | INFO     | advanced_rag:query_expansion:211 - Query expanded with 5 additional terms
+2025-08-24 17:28:45 | INFO     | advanced_rag:enhanced_retrieval:61 - Retrieved 10 chunks using enhanced OpenAI approach
+2025-08-24 17:28:45 | INFO     | advanced_rag:context_optimization:182 - Optimized context: 2014 tokens, 5 chunks
+2025-08-24 17:28:45 | INFO     | multi_agent_system:process_consultation:257 - Routed to general agent
+2025-08-24 17:28:47 | INFO     | quality_checker:improve_response_with_reprompting:207 - Attempt 1: Quality score 62.5
+2025-08-24 17:28:51 | INFO     | quality_checker:improve_response_with_reprompting:207 - Attempt 2: Quality score 62.5
+2025-08-24 17:28:53 | INFO     | quality_checker:improve_response_with_reprompting:207 - Attempt 3: Quality score 75.0
+2025-08-24 17:28:53 | INFO     | quality_checker:improve_response_with_reprompting:211 - Quality threshold met after 3 attempts
+2025-08-24 17:28:53 | INFO     | multi_agent_system:process_consultation:263 - Consultation metrics - Agent: general, Quality: 75.0, Confidence: 0.55, Attempts: 3, Context chunks: 5
+2025-08-24 17:28:53 | INFO     | multi_agent_system:process_consultation:269 - Consultation completed - Quality: 75.0, Confidence: 0.55
+2025-08-24 17:28:53 | DEBUG    | memory_manager:add_message:91 - Added assistant message to conversation 0da38c9e53b88c3a
+2025-08-24 17:28:53 | DEBUG    | memory_manager:save_conversation:270 - Saved conversation 0da38c9e53b88c3a to storage
+2025-08-24 17:28:53 | INFO     | advanced_app:advanced_chat_endpoint:188 - ✅ Response generated - Agent: general, Quality: 75.0, Time: 27347ms
+2025-08-24 17:36:31 | DEBUG    | memory_manager:save_conversation:270 - Saved conversation 0da38c9e53b88c3a to storage
+2025-08-24 17:36:31 | INFO     | advanced_app:shutdown_event:364 - 💾 All conversations saved
+2025-08-24 17:36:31 | INFO     | advanced_app:shutdown_event:367 - Session ended successfully
+2025-08-24 17:36:31 | INFO     | advanced_app:shutdown_event:369 - 👋 Advanced AI Agent System shutdown complete
+2025-08-24 18:36:00 | INFO     | __main__:setup_logging:52 - 🚀 Advanced logging system initialized
+2025-08-24 18:36:00 | INFO     | __main__:create_directories:172 - 📁 Creating necessary directories...
+2025-08-24 18:36:00 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: logs
+2025-08-24 18:36:00 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: conversation_memory
+2025-08-24 18:36:00 | DEBUG    | __main__:create_directories:183 - ✅ Directory created/verified: temp
+2025-08-24 18:36:00 | INFO     | __main__:create_directories:185 - ✅ Directory structure ready
+2025-08-24 18:36:00 | INFO     | __main__:check_advanced_dependencies:140 - 🔧 Checking advanced AI dependencies...
+2025-08-24 18:36:00 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ openai available
+2025-08-24 18:36:00 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ pinecone available
+2025-08-24 18:36:00 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ fastapi available
+2025-08-24 18:36:00 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ uvicorn available
+2025-08-24 18:36:00 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ tiktoken available
+2025-08-24 18:36:00 | DEBUG    | __main__:check_advanced_dependencies:156 - ✅ loguru available
+2025-08-24 18:36:00 | INFO     | __main__:check_advanced_dependencies:166 - ✅ All advanced AI dependencies available
+2025-08-24 18:36:00 | INFO     | __main__:check_environment:57 - 🔍 Checking environment configuration...
+2025-08-24 18:36:03 | INFO     | __main__:check_environment:86 - ✅ OpenAI API connection successful
+2025-08-24 18:36:06 | INFO     | __main__:check_environment:95 - ✅ Pinecone API connection successful
+2025-08-24 18:36:06 | INFO     | __main__:check_environment:100 - ✅ Environment configuration check complete
+2025-08-24 18:36:06 | INFO     | __main__:setup_data:106 - 📊 Setting up data for advanced AI system...
+2025-08-24 18:36:06 | INFO     | __main__:setup_data:116 - 🔍 Validating data chunks...
+2025-08-24 18:36:13 | INFO     | __main__:setup_data:119 - ✅ Data validation complete: 65,259 words, 1090 chunks
+2025-08-24 18:36:13 | INFO     | __main__:setup_data:127 - ✅ Data already loaded in Pinecone: 1090 vectors
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:190 - 🎯 Advanced AI Dental Chatbot System Information:
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:191 - ============================================================
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:192 - 🤖 AI Features:
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:193 -    • Multi-Agent System (Diagnostic, Treatment, Prevention, Emergency)
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:194 -    • Chain-of-Thought Reasoning
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:195 -    • Automatic Response Quality Checking
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:196 -    • Intelligent Reprompting for Better Responses
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:197 -    • Advanced RAG with OpenAI Embeddings
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:198 -    • Conversation Memory and Context Management
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:199 -    • Query Expansion and Relevance Boosting
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:200 - 
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:201 - 🏥 Medical Expertise:
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:202 -    • Dr. Meenakshi Tomar's 30+ years experience
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:203 -    • Specialized in full mouth reconstruction
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:204 -    • WCLI certified laser surgery
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:205 -    • Evidence-based treatment recommendations
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:206 - 
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:207 - 🔧 Technical Stack:
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:208 -    • OpenAI GPT-4o-mini with advanced prompting
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:209 -    • OpenAI text-embedding-3-small for embeddings
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:210 -    • Pinecone vector database for knowledge retrieval
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:211 -    • FastAPI with async processing
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:212 -    • Advanced query expansion and relevance scoring
+2025-08-24 18:36:13 | INFO     | __main__:display_system_info:213 - ============================================================
+2025-08-24 18:36:13 | INFO     | __main__:start_advanced_server:218 - 🚀 Starting Advanced AI Dental Chatbot Server...
+2025-08-24 18:36:13 | INFO     | __main__:start_advanced_server:231 - 🌐 Server starting on http://127.0.0.1:8000
+2025-08-24 18:36:13 | INFO     | __main__:start_advanced_server:232 - 📱 Advanced chat interface available at: http://127.0.0.1:8000/advanced_chat.html
+2025-08-24 18:36:13 | INFO     | __main__:start_advanced_server:233 - 🔍 Health check endpoint: http://127.0.0.1:8000/health
+2025-08-24 18:36:13 | INFO     | __main__:start_advanced_server:234 - 📊 System stats endpoint: http://127.0.0.1:8000/stats
+2025-08-24 18:36:13 | INFO     | advanced_app:startup_event:93 - 🚀 Starting Advanced Dr. Chatbot server...
+2025-08-24 18:36:13 | INFO     | advanced_app:startup_event:97 - ✅ OpenAI client initialized
+2025-08-24 18:36:13 | INFO     | advanced_app:startup_event:100 - ✅ Standard logging monitoring initialized
+2025-08-24 18:36:13 | INFO     | memory_manager:__init__:212 - Memory Manager initialized with storage: conversation_memory
+2025-08-24 18:36:13 | INFO     | advanced_app:startup_event:104 - ✅ Memory Manager initialized
+2025-08-24 18:36:14 | INFO     | advanced_rag:__init__:35 - Advanced RAG Pipeline initialized with OpenAI embeddings
+2025-08-24 18:36:14 | INFO     | multi_agent_system:__init__:225 - Multi-Agent System monitoring via standard logging
+2025-08-24 18:36:14 | INFO     | multi_agent_system:__init__:227 - Multi-Agent System initialized with all specialist agents
+2025-08-24 18:36:14 | INFO     | advanced_app:startup_event:111 - ✅ Multi-Agent Orchestrator initialized
+2025-08-24 18:36:14 | INFO     | advanced_app:startup_event:116 - 🎉 Advanced AI Agent System ready!
+2025-08-24 18:36:37 | INFO     | advanced_app:advanced_chat_endpoint:150 - 📝 Received message: what is the process of root canal...
+2025-08-24 18:36:37 | INFO     | memory_manager:get_conversation:248 - Created new conversation for session 1f4b3010477a4349
+2025-08-24 18:36:37 | DEBUG    | memory_manager:add_message:91 - Added user message to conversation 1f4b3010477a4349
+2025-08-24 18:36:37 | INFO     | multi_agent_system:process_consultation:248 - Processing consultation: what is the process of root canal...
+2025-08-24 18:36:45 | INFO     | advanced_rag:query_expansion:211 - Query expanded with 5 additional terms
+2025-08-24 18:36:56 | INFO     | advanced_rag:enhanced_retrieval:61 - Retrieved 10 chunks using enhanced OpenAI approach
+2025-08-24 18:36:56 | INFO     | advanced_rag:context_optimization:182 - Optimized context: 1983 tokens, 5 chunks
+2025-08-24 18:36:56 | INFO     | multi_agent_system:process_consultation:257 - Routed to treatment agent
+2025-08-24 18:37:03 | INFO     | quality_checker:improve_response_with_reprompting:207 - Attempt 1: Quality score 62.5
+2025-08-24 18:37:11 | INFO     | quality_checker:improve_response_with_reprompting:207 - Attempt 2: Quality score 62.5
+2025-08-24 18:37:20 | INFO     | quality_checker:improve_response_with_reprompting:207 - Attempt 3: Quality score 75.0
+2025-08-24 18:37:20 | INFO     | quality_checker:improve_response_with_reprompting:211 - Quality threshold met after 3 attempts
+2025-08-24 18:37:20 | INFO     | multi_agent_system:process_consultation:263 - Consultation metrics - Agent: treatment, Quality: 75.0, Confidence: 0.55, Attempts: 3, Context chunks: 5
+2025-08-24 18:37:20 | INFO     | multi_agent_system:process_consultation:269 - Consultation completed - Quality: 75.0, Confidence: 0.55
+2025-08-24 18:37:20 | DEBUG    | memory_manager:add_message:91 - Added assistant message to conversation 1f4b3010477a4349
+2025-08-24 18:37:20 | DEBUG    | memory_manager:save_conversation:270 - Saved conversation 1f4b3010477a4349 to storage
+2025-08-24 18:37:20 | INFO     | advanced_app:advanced_chat_endpoint:188 - ✅ Response generated - Agent: treatment, Quality: 75.0, Time: 43168ms

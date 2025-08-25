@@ -1,0 +1,68 @@
+{
+  "session_id": "0da38c9e53b88c3a",
+  "messages": [
+    {
+      "content": "Are amalgam (silver) fillings safe?",
+      "message_type": "user",
+      "timestamp": "2025-08-24T17:24:43.516226",
+      "metadata": {}
+    },
+    {
+      "content": "Yes, amalgam (silver) fillings are considered safe and effective for cavity treatment, as supported by organizations like the ADA, CDC, and WHO. Here are some key points:\n\n- **Safety**: The mercury in amalgam combines with other metals, making it inactive and safe for use. Allergic reactions are extremely rare.\n- **Durability**: They are strong and long-lasting, making them a cost-effective option for many patients.\n- **Alternatives**: If you have concerns, I can discuss tooth-colored composites, porcelain, or gold fillings.\n\nYour dental health is important to me, and I would be happy to help you find the best option for your smile. Would you like to schedule a consultation? 😊",
+      "message_type": "assistant",
+      "timestamp": "2025-08-24T17:25:07.614055",
+      "metadata": {
+        "agent_type": "treatment",
+        "confidence": 0.3,
+        "quality_score": 50.0,
+        "attempts_used": 3
+      }
+    },
+    {
+      "content": "who is modi",
+      "message_type": "user",
+      "timestamp": "2025-08-24T17:25:49.355095",
+      "metadata": {}
+    },
+    {
+      "content": "It seems there might be a mix-up with the term \"modi.\" If you're referring to a specific dental procedure or topic, please let me know so I can assist you more accurately. I'm here to help with any dental questions you may have! Would you like to share more details? 😊",
+      "message_type": "assistant",
+      "timestamp": "2025-08-24T17:26:12.613680",
+      "metadata": {
+        "agent_type": "general",
+        "confidence": 0.425,
+        "quality_score": 62.5,
+        "attempts_used": 3
+      }
+    },
+    {
+      "content": "do you have facility of dental xray",
+      "message_type": "user",
+      "timestamp": "2025-08-24T17:28:26.555850",
+      "metadata": {}
+    },
+    {
+      "content": "Yes, we do have the facility for dental X-rays at Edmonds Bay Dental, by Dr. Meenakshi Tomar. Dental X-rays are essential for accurately diagnosing hidden issues that may not be visible during a regular exam. They help me identify:\n\n- Abscesses or cysts\n- Bone loss\n- Decay between teeth\n- Developmental abnormalities\n- Problems below the gum line\n\nI always ensure that your safety is my top priority; the radiation exposure from X-rays is very low and considered safe. If you have any concerns or questions, I'm here to help! Would you like to schedule an appointment to discuss your dental needs? 😊",
+      "message_type": "assistant",
+      "timestamp": "2025-08-24T17:28:53.901190",
+      "metadata": {
+        "agent_type": "general",
+        "confidence": 0.55,
+        "quality_score": 75.0,
+        "attempts_used": 3
+      }
+    }
+  ],
+  "patient_profile": {
+    "session_id": "0da38c9e53b88c3a",
+    "first_interaction": "2025-08-24T17:24:43.516226",
+    "last_interaction": "2025-08-24T17:28:26.555850",
+    "total_interactions": 3,
+    "main_concerns": [],
+    "mentioned_symptoms": [],
+    "treatment_history": [],
+    "preferences": {},
+    "risk_factors": []
+  },
+  "context_summary": ""
+}

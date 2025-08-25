@@ -1,0 +1,36 @@
+{
+  "session_id": "83ce82a1e9d22c9f",
+  "messages": [
+    {
+      "content": "i have facing pain in my tooth",
+      "message_type": "user",
+      "timestamp": "2025-08-24T16:15:28.998557",
+      "metadata": {}
+    },
+    {
+      "content": "I'm sorry to hear you're in pain. It could be due to a cavity, infection, or something else requiring attention. I recommend scheduling an appointment so I can examine your tooth and determine the best course of action. Is the pain sharp, dull, or does it occur during specific activities?",
+      "message_type": "assistant",
+      "timestamp": "2025-08-24T16:15:43.705799",
+      "metadata": {
+        "agent_type": "diagnostic",
+        "confidence": 0.875,
+        "quality_score": 87.5,
+        "attempts_used": 1
+      }
+    }
+  ],
+  "patient_profile": {
+    "session_id": "83ce82a1e9d22c9f",
+    "first_interaction": "2025-08-24T16:15:28.998557",
+    "last_interaction": "2025-08-24T16:15:28.998557",
+    "total_interactions": 1,
+    "main_concerns": [],
+    "mentioned_symptoms": [
+      "pain"
+    ],
+    "treatment_history": [],
+    "preferences": {},
+    "risk_factors": []
+  },
+  "context_summary": ""
+}

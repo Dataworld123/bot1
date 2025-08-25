@@ -1,0 +1,34 @@
+{
+  "session_id": "120626bb288e9656",
+  "messages": [
+    {
+      "content": "do you do dental implants",
+      "message_type": "user",
+      "timestamp": "2025-08-24T16:54:11.595521",
+      "metadata": {}
+    },
+    {
+      "content": "Absolutely, I do offer dental implants at my practice. They’re a wonderful solution for replacing missing teeth, providing both aesthetics and functionality to your smile. I’d love to discuss how they can benefit you—would you like to schedule a consultation? 😊",
+      "message_type": "assistant",
+      "timestamp": "2025-08-24T16:54:26.783535",
+      "metadata": {
+        "agent_type": "treatment",
+        "confidence": 0.65,
+        "quality_score": 75.0,
+        "attempts_used": 2
+      }
+    }
+  ],
+  "patient_profile": {
+    "session_id": "120626bb288e9656",
+    "first_interaction": "2025-08-24T16:54:11.595521",
+    "last_interaction": "2025-08-24T16:54:11.595521",
+    "total_interactions": 1,
+    "main_concerns": [],
+    "mentioned_symptoms": [],
+    "treatment_history": [],
+    "preferences": {},
+    "risk_factors": []
+  },
+  "context_summary": ""
+}

@@ -1,0 +1,34 @@
+{
+  "session_id": "8513c4f47dff34d4",
+  "messages": [
+    {
+      "content": "hi",
+      "message_type": "user",
+      "timestamp": "2025-08-24T15:43:07.689149",
+      "metadata": {}
+    },
+    {
+      "content": "Hello! Thank you for reaching out to me. I’m truly glad to connect with you, and I want to ensure that I address any questions or concerns you may have regarding your dental health.\n\nTo better assist you, I would love to understand more about what you’re experiencing. Here are a few questions to help guide our conversation:\n\n- Are you currently facing any specific dental issues, such as pain, sensitivity, or discomfort?\n- Have you had a recent dental check-up or cleaning, or are you due for one?\n- Are there particular treatments you're curious about, like a smile makeover or full mouth reconstruction?\n\nUnderstanding your specific needs will allow me to provide you with the most relevant and actionable advice. I believe that comprehensive dental care is a partnership, and I’m here to support you every step of the way.\n\nYour oral health is important to me, and I want to ensure you receive the best possible care tailored to your situation. I look forward to hearing more from you soon! \n\nIf you prefer, you can also reach me at (425) 775-5162 to discuss your concerns directly.",
+      "message_type": "assistant",
+      "timestamp": "2025-08-24T15:43:28.311903",
+      "metadata": {
+        "agent_type": "general",
+        "confidence": 0.425,
+        "quality_score": 62.5,
+        "attempts_used": 3
+      }
+    }
+  ],
+  "patient_profile": {
+    "session_id": "8513c4f47dff34d4",
+    "first_interaction": "2025-08-24T15:43:07.689149",
+    "last_interaction": "2025-08-24T15:43:07.689149",
+    "total_interactions": 1,
+    "main_concerns": [],
+    "mentioned_symptoms": [],
+    "treatment_history": [],
+    "preferences": {},
+    "risk_factors": []
+  },
+  "context_summary": ""
+}

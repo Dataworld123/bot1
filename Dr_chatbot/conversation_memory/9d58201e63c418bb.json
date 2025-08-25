@@ -1,0 +1,34 @@
+{
+  "session_id": "9d58201e63c418bb",
+  "messages": [
+    {
+      "content": "hi",
+      "message_type": "user",
+      "timestamp": "2025-08-24T16:05:55.260109",
+      "metadata": {}
+    },
+    {
+      "content": "**👋 Hello!**\n\nThank you for reaching out! How can I assist you today? If you have any dental concerns or questions, I'm here to help.\n\n**🦷 My Assessment**\n\nIf you're experiencing any dental issues or have questions about your oral health, I’d love to provide guidance. Here’s a brief overview of how I can help:\n\n**💡 Areas of Expertise:**\n• **Full Mouth Reconstruction:** Restoring function and aesthetics.\n• **Smile Makeovers:** Enhancing your smile for improved confidence.\n• **Laser Surgery:** Minimally invasive procedures for various dental issues.\n\n**⚠️ Common Concerns:**\n• If you're dealing with pain, swelling, or discomfort, it’s essential to seek professional advice.\n• Regular check-ups are crucial for maintaining oral health and preventing serious issues.\n\nIs there something specific on your mind that you'd like to discuss? 😊",
+      "message_type": "assistant",
+      "timestamp": "2025-08-24T16:06:14.225444",
+      "metadata": {
+        "agent_type": "general",
+        "confidence": 0.75,
+        "quality_score": 75.0,
+        "attempts_used": 1
+      }
+    }
+  ],
+  "patient_profile": {
+    "session_id": "9d58201e63c418bb",
+    "first_interaction": "2025-08-24T16:05:55.260109",
+    "last_interaction": "2025-08-24T16:05:55.260109",
+    "total_interactions": 1,
+    "main_concerns": [],
+    "mentioned_symptoms": [],
+    "treatment_history": [],
+    "preferences": {},
+    "risk_factors": []
+  },
+  "context_summary": ""
+}

@@ -1,0 +1,34 @@
+{
+  "session_id": "beb9ef247f864da4",
+  "messages": [
+    {
+      "content": "do you do dental implants",
+      "message_type": "user",
+      "timestamp": "2025-08-24T16:46:14.828292",
+      "metadata": {}
+    },
+    {
+      "content": "Yes, I do perform dental implants at Edmonds Bay Dental. Dental implants are an excellent solution for replacing missing teeth, and they can help restore both function and aesthetics to your smile.\n\nThe process of getting dental implants involves several steps over a few months. Initially, we will take X-rays and impressions of your jaw and teeth to assess the available bone and gum tissue. Once we have a clear plan, I will surgically place the implant into the bone while the area is numb. Healing from this initial procedure can take up to six months as the implant integrates with the bone. Depending on the type of implant, a second surgery may be necessary to attach the post that will hold the artificial tooth, or in some cases, the post and anchor can be placed simultaneously. After the healing period, the artificial teeth are fitted to the post, providing a stable and comfortable solution.\n\nSome key benefits of dental implants include:\n• Replacing one or more missing teeth without affecting adjacent teeth.\n• Restoring a confident smile and improving self-esteem.\n• Enhancing chewing, speech, and overall digestion.\n• Supporting bridges or dentures for increased comfort and security.\n\nIf you're considering dental implants, it's important to maintain good oral hygiene and attend regular dental visits to ensure their longevity. I recommend scheduling a consultation so we can discuss your specific needs and develop a personalized treatment plan. Feel free to call my office at (425) 775-5162. I'm here to help! 😊",
+      "message_type": "assistant",
+      "timestamp": "2025-08-24T16:46:36.455201",
+      "metadata": {
+        "agent_type": "treatment",
+        "confidence": 0.875,
+        "quality_score": 87.5,
+        "attempts_used": 1
+      }
+    }
+  ],
+  "patient_profile": {
+    "session_id": "beb9ef247f864da4",
+    "first_interaction": "2025-08-24T16:46:14.828292",
+    "last_interaction": "2025-08-24T16:46:14.828292",
+    "total_interactions": 1,
+    "main_concerns": [],
+    "mentioned_symptoms": [],
+    "treatment_history": [],
+    "preferences": {},
+    "risk_factors": []
+  },
+  "context_summary": ""
+}

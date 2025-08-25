@@ -1,0 +1,34 @@
+{
+  "session_id": "7fa4ebce5181eabc",
+  "messages": [
+    {
+      "content": "do you do dental implants",
+      "message_type": "user",
+      "timestamp": "2025-08-24T16:06:39.872332",
+      "metadata": {}
+    },
+    {
+      "content": "**🦷 Dental Implants at Edmonds Bay Dental**\n\nThank you for your inquiry about dental implants! I’m here to help you understand what this procedure involves.\n\n**💡 Overview of Dental Implants:**\n\nDental implants are an excellent option for replacing missing teeth and restoring function and aesthetics to your smile. The process involves several steps over a few months, ensuring a secure and natural-looking result.\n\n**⚙️ Preparation Steps:**\n• Schedule a consultation with me to discuss your dental history and get a thorough examination.\n• Expect X-rays and impressions (molds) of your jaw and teeth to assess the condition of your bone and gum tissue.\n• We may recommend a treatment plan tailored to your needs.\n\n**🔍 Step-by-Step Process:**\n1. **Initial Consultation:** We discuss your goals and evaluate your dental health.\n   \n2. **Surgical Placement:** Under local anesthesia, I will surgically place the implant into your jawbone. This may take about an hour.\n   \n3. **Healing Period:** The implant will integrate with the bone for about six months. During this time, you may receive a temporary restoration.\n   \n4. **Post Placement (if needed):** Depending on the implant type, a second surgery may be required to place the post that will hold the artificial tooth.\n\n5. **Fitting of the Artificial Tooth:** After a few weeks of healing, we will create and fit your custom artificial tooth to the post. This may involve several fittings over one to two months.\n\n**⏳ Recovery Expectations:**\n• Expect some swelling and discomfort after the surgery, which can usually be managed with over-the-counter pain medication.\n• Follow care instructions for optimal healing, including good oral hygiene and possibly dietary adjustments.\n\n**🌟 Long-Term Outcomes:**\n• Enjoy a restored confident smile! \n• Improved chewing, speech, and digestion.\n• With proper care, dental implants can last many years, giving you excellent stability and comfort.\n\n**💡 Maintenance Tips:**\n• Maintain good oral hygiene by brushing and flossing regularly.\n• Keep up with your routine dental visits for check-ups and cleanings.\n\nI hope this information helps you feel more informed about dental implants! If you have any further questions or would like to schedule a consultation, please feel free to call us at (425) 775-5162. \n\nIs there anything specific about the dental implant process that you’d like to know more about? 😊",
+      "message_type": "assistant",
+      "timestamp": "2025-08-24T16:07:14.472964",
+      "metadata": {
+        "agent_type": "treatment",
+        "confidence": 0.75,
+        "quality_score": 75.0,
+        "attempts_used": 1
+      }
+    }
+  ],
+  "patient_profile": {
+    "session_id": "7fa4ebce5181eabc",
+    "first_interaction": "2025-08-24T16:06:39.872332",
+    "last_interaction": "2025-08-24T16:06:39.872332",
+    "total_interactions": 1,
+    "main_concerns": [],
+    "mentioned_symptoms": [],
+    "treatment_history": [],
+    "preferences": {},
+    "risk_factors": []
+  },
+  "context_summary": ""
+}

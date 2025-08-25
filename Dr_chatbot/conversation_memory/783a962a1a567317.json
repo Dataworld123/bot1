@@ -1,0 +1,68 @@
+{
+  "session_id": "783a962a1a567317",
+  "messages": [
+    {
+      "content": "i have some issue in my tooth regarding decay can you solve it",
+      "message_type": "user",
+      "timestamp": "2025-08-24T17:03:15.749529",
+      "metadata": {}
+    },
+    {
+      "content": "Yes, I can definitely help with tooth decay. I recommend scheduling an appointment so I can assess the damage and discuss the best restorative options for you. When are you available to come in? 😊",
+      "message_type": "assistant",
+      "timestamp": "2025-08-24T17:03:29.485066",
+      "metadata": {
+        "agent_type": "diagnostic",
+        "confidence": 0.75,
+        "quality_score": 75.0,
+        "attempts_used": 1
+      }
+    },
+    {
+      "content": "do you do dental implants",
+      "message_type": "user",
+      "timestamp": "2025-08-24T17:10:24.447357",
+      "metadata": {}
+    },
+    {
+      "content": "Yes, I do dental implants at my practice. They provide a stable and natural-looking solution for missing teeth. Would you like to schedule a consultation to explore your options? 😊",
+      "message_type": "assistant",
+      "timestamp": "2025-08-24T17:10:40.083205",
+      "metadata": {
+        "agent_type": "treatment",
+        "confidence": 0.75,
+        "quality_score": 75.0,
+        "attempts_used": 1
+      }
+    },
+    {
+      "content": "i want to know process about dental implants",
+      "message_type": "user",
+      "timestamp": "2025-08-24T17:14:16.437587",
+      "metadata": {}
+    },
+    {
+      "content": "Yes, I perform dental implants, which are a fantastic way to replace missing teeth and restore your smile. They look and feel just like natural teeth! Would you like to schedule a consultation to see if they're right for you? 😊",
+      "message_type": "assistant",
+      "timestamp": "2025-08-24T17:14:32.405340",
+      "metadata": {
+        "agent_type": "treatment",
+        "confidence": 0.75,
+        "quality_score": 75.0,
+        "attempts_used": 1
+      }
+    }
+  ],
+  "patient_profile": {
+    "session_id": "783a962a1a567317",
+    "first_interaction": "2025-08-24T17:03:15.749529",
+    "last_interaction": "2025-08-24T17:14:16.437587",
+    "total_interactions": 3,
+    "main_concerns": [],
+    "mentioned_symptoms": [],
+    "treatment_history": [],
+    "preferences": {},
+    "risk_factors": []
+  },
+  "context_summary": ""
+}

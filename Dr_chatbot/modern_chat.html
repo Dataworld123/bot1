@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Meenakshi Tomar - Advanced AI Dental Assistant</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0 !important;
+            padding: 0 !important;
+            box-sizing: border-box !important;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+            height: 100vh !important;
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+        }
+
+        .chat-container {
+            width: 100% !important;
+            max-width: 400px !important;
+            height: 600px !important;
+            background: white !important;
+            border-radius: 20px !important;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1) !important;
+            display: flex !important;
+            flex-direction: column !important;
+            overflow: hidden !important;
+        }
+
+        .chat-header {
+            background: linear-gradient(135deg, #4f46e5 0%, #06b6d4 100%) !important;
+            color: white !important;
+            padding: 20px !important;
+            display: flex !important;
+            align-items: center !important;
+            gap: 15px !important;
+        }
+
+        .avatar {
+            width: 40px !important;
+            height: 40px !important;
+            border-radius: 50% !important;
+            background: rgba(255,255,255,0.2) !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            font-size: 20px !important;
+        }
+
+        .header-info {
+            flex: 1 !important;
+        }
+
+        .header-title {
+            font-size: 18px !important;
+            font-weight: 600 !important;
+            margin-bottom: 2px !important;
+        }
+
+        .header-subtitle {
+            font-size: 14px !important;
+            opacity: 0.9 !important;
+        }
+
+
+
+        .chat-messages {
+            flex: 1 !important;
+            padding: 20px !important;
+            overflow-y: auto !important;
+            background: #f8fafc !important;
+        }
+
+        .message {
+            margin-bottom: 20px !important;
+            display: flex !important;
+            align-items: flex-start !important;
+            gap: 10px !important;
+        }
+
+        .message.user {
+            flex-direction: row-reverse !important;
+        }
+
+        .message-avatar {
+            width: 32px !important;
+            height: 32px !important;
+            border-radius: 50% !important;
+            background: #e2e8f0 !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            font-size: 14px !important;
+            flex-shrink: 0 !important;
+        }
+
+        .message.user .message-avatar {
+            background: #4f46e5 !important;
+            color: white !important;
+        }
+
+        .message-content {
+            max-width: 80% !important;
+            padding: 12px 16px !important;
+            border-radius: 18px !important;
+            background: white !important;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+        }
+
+        .message.user .message-content {
+            background: #4f46e5 !important;
+            color: white !important;
+        }
+
+        .message-text {
+            line-height: 1.4 !important;
+            font-size: 14px !important;
+        }
+
+        .message-text ul {
+            margin: 8px 0 !important;
+            padding-left: 0 !important;
+            list-style: none !important;
+        }
+
+        .message-text li {
+            margin-bottom: 6px !important;
+            padding-left: 20px !important;
+            position: relative !important;
+        }
+
+        .message-text li:before {
+            content: "•" !important;
+            position: absolute !important;
+            left: 0 !important;
+            color: #4f46e5 !important;
+            font-weight: bold !important;
+        }
+
+        .message-text h4 {
+            color: #4f46e5 !important;
+            font-size: 16px !important;
+            font-weight: 600 !important;
+            margin: 15px 0 10px 0 !important;
+            display: flex !important;
+            align-items: center !important;
+            gap: 5px !important;
+        }
+
+        .message-text p {
+            margin: 10px 0 !important;
+            line-height: 1.6 !important;
+        }
+
+        .message-text ul, .message-text ol {
+            margin: 10px 0 !important;
+            padding-left: 20px !important;
+        }
+
+        .message-text li {
+            margin: 5px 0 !important;
+            line-height: 1.5 !important;
+        }
+
+        .message-text strong {
+            color: #2d3748 !important;
+            font-weight: 600 !important;
+        }
+
+        /* Typing Indicator Styles */
+        .typing-indicator {
+            opacity: 0.7 !important;
+        }
+
+        .typing-animation {
+            display: flex !important;
+            align-items: center !important;
+            gap: 4px !important;
+            padding: 8px 0 !important;
+        }
+
+        .typing-animation span {
+            width: 8px !important;
+            height: 8px !important;
+            border-radius: 50% !important;
+            background: #4f46e5 !important;
+            animation: typing 1.4s infinite ease-in-out !important;
+        }
+
+        .typing-animation span:nth-child(1) {
+            animation-delay: -0.32s !important;
+        }
+
+        .typing-animation span:nth-child(2) {
+            animation-delay: -0.16s !important;
+        }
+
+        @keyframes typing {
+            0%, 80%, 100% {
+                transform: scale(0.8) !important;
+                opacity: 0.5 !important;
+            }
+            40% {
+                transform: scale(1) !important;
+                opacity: 1 !important;
+            }
+        }
+
+        /* Better formatting for responses */
+        .response-text {
+            line-height: 1.6 !important;
+        }
+
+        .response-text p {
+            margin: 8px 0 !important;
+        }
+
+        .response-text ul {
+            margin: 10px 0 !important;
+            padding-left: 0 !important;
+            list-style: none !important;
+        }
+
+        .response-text li {
+            margin: 6px 0 !important;
+            padding-left: 20px !important;
+            position: relative !important;
+            line-height: 1.5 !important;
+        }
+
+        .response-text li:before {
+            content: "•" !important;
+            position: absolute !important;
+            left: 0 !important;
+            color: #4f46e5 !important;
+            font-weight: bold !important;
+            font-size: 16px !important;
+        }
+
+
+
+        .chat-input {
+            padding: 20px !important;
+            background: white !important;
+            border-top: 1px solid #e2e8f0 !important;
+        }
+
+
+
+        .input-container {
+            display: flex !important;
+            align-items: center !important;
+            gap: 10px !important;
+            background: #f1f5f9 !important;
+            border-radius: 25px !important;
+            padding: 8px 15px !important;
+        }
+
+        .input-field {
+            flex: 1 !important;
+            border: none !important;
+            background: none !important;
+            outline: none !important;
+            padding: 8px 0 !important;
+            font-size: 14px !important;
+            color: #334155 !important;
+        }
+
+        .send-btn {
+            background: #4f46e5 !important;
+            color: white !important;
+            width: 35px !important;
+            height: 35px !important;
+            border-radius: 50% !important;
+            border: none !important;
+            cursor: pointer !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+        }
+
+        .powered-by {
+            text-align: center !important;
+            padding: 10px !important;
+            font-size: 11px !important;
+            color: #94a3b8 !important;
+        }
+
+        .typing-indicator {
+            display: none !important;
+            padding: 12px 16px !important;
+            background: white !important;
+            border-radius: 18px !important;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+            max-width: 100px !important;
+            border: 1px solid #e2e8f0 !important;
+        }
+
+        .typing-dots {
+            display: flex !important;
+            gap: 4px !important;
+        }
+
+        .typing-dot {
+            width: 8px !important;
+            height: 8px !important;
+            border-radius: 50% !important;
+            background: #4f46e5 !important;
+            animation: typing 1.4s infinite ease-in-out !important;
+        }
+
+        .typing-dot:nth-child(1) {
+            animation-delay: 0s !important;
+        }
+
+        .typing-dot:nth-child(2) {
+            animation-delay: 0.2s !important;
+        }
+
+        .typing-dot:nth-child(3) {
+            animation-delay: 0.4s !important;
+        }
+
+        @keyframes typing {
+            0%, 60%, 100% {
+                transform: translateY(0px);
+                opacity: 0.5;
+            }
+            30% {
+                transform: translateY(-15px);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Chat Header -->
+        <div class="chat-header">
+            <div class="avatar">
+                <i class="fas fa-tooth"></i>
+            </div>
+            <div class="header-info">
+                <div class="header-title">Dr. Meenakshi Tomar, DDS</div>
+                <div class="header-subtitle">Dental Consultation • (425) 775-5162</div>
+            </div>
+        </div>
+
+        <!-- Chat Messages -->
+        <div class="chat-messages" id="chatMessages">
+            <!-- Welcome message -->
+            <div class="message">
+                <div class="message-avatar">
+                    <i class="fas fa-tooth"></i>
+                </div>
+                <div class="message-content">
+                    <div class="message-text">
+                        <h4>🦷 Welcome to Dr. Meenakshi Tomar's Dental Consultation</h4>
+
+                        <p>Hello! I'm here to help with your dental concerns. I can assist you with:</p>
+
+                        <ul>
+                            <li>Symptom assessment and diagnosis</li>
+                            <li>Treatment recommendations</li>
+                            <li>Preventive care advice</li>
+                            <li>Emergency dental guidance</li>
+                        </ul>
+
+                        <p><strong>What dental concern can I help you with today?</strong> 😊</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Typing indicator -->
+            <div class="message" id="typingIndicator" style="display: none;">
+                <div class="message-avatar">
+                    <i class="fas fa-tooth"></i>
+                </div>
+                <div class="typing-indicator" style="display: block;">
+                    <div class="typing-dots">
+                        <div class="typing-dot"></div>
+                        <div class="typing-dot"></div>
+                        <div class="typing-dot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Input -->
+        <div class="chat-input">
+            <form id="messageForm">
+                <div class="input-container">
+                    <input type="text" id="messageInput" class="input-field" placeholder="Ask me about your dental concerns..." required>
+                    <button type="submit" class="send-btn">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </form>
+            <div class="powered-by">
+                POWERED BY <strong>Dr. Meenakshi Tomar</strong>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            console.log("🚀 Dr. Meenakshi Tomar Chat interface initialized");
+
+            // Session management variables
+            let sessionId = null;
+
+            function scrollToBottom() {
+                const chatMessages = document.getElementById('chatMessages');
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }
+
+            function showTyping() {
+                console.log("🔄 Showing typing indicator...");
+                $("#typingIndicator").fadeIn(300);
+                scrollToBottom();
+            }
+
+            function hideTyping() {
+                console.log("✅ Hiding typing indicator...");
+                $("#typingIndicator").fadeOut(200);
+            }
+
+            function formatResponse(text) {
+                // Split text into paragraphs (double line breaks)
+                let paragraphs = text.split(/\n\n+/);
+                let formatted = '';
+
+                for (let i = 0; i < paragraphs.length; i++) {
+                    let paragraph = paragraphs[i].trim();
+                    if (!paragraph) continue;
+
+                    // Check if this paragraph contains bullet points
+                    if (paragraph.includes('•') || paragraph.includes('-')) {
+                        // Handle bullet points
+                        let lines = paragraph.split('\n');
+                        let listItems = [];
+                        let regularText = '';
+
+                        for (let line of lines) {
+                            line = line.trim();
+                            if (line.match(/^[•-]\s+/)) {
+                                // This is a bullet point
+                                listItems.push(line.replace(/^[•-]\s+/, ''));
+                            } else if (line && !line.match(/^[•-]\s+/)) {
+                                // This is regular text before bullet points
+                                regularText += line + ' ';
+                            }
+                        }
+
+                        // Add regular text if exists
+                        if (regularText.trim()) {
+                            formatted += `<p style="margin: 15px 0; line-height: 1.6; font-size: 15px;">${regularText.trim()}</p>`;
+                        }
+
+                        // Add bullet points
+                        if (listItems.length > 0) {
+                            formatted += '<ul style="margin: 15px 0; padding-left: 20px;">';
+                            for (let item of listItems) {
+                                formatted += `<li style="margin: 8px 0; line-height: 1.5; font-size: 15px;">${item}</li>`;
+                            }
+                            formatted += '</ul>';
+                        }
+                    } else {
+                        // Regular paragraph
+                        // Handle single line breaks within paragraph
+                        paragraph = paragraph.replace(/\n/g, ' ');
+                        formatted += `<p style="margin: 15px 0; line-height: 1.6; font-size: 15px;">${paragraph}</p>`;
+                    }
+                }
+
+                // Clean up any bold formatting (remove ** but keep content)
+                formatted = formatted.replace(/\*\*(.*?)\*\*/g, '$1');
+
+                return formatted;
+            }
+
+
+
+            function addUserMessage(message) {
+                const userHtml = `
+                    <div class="message user">
+                        <div class="message-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="message-content">
+                            <div class="message-text">${message}</div>
+                        </div>
+                    </div>
+                `;
+                $("#chatMessages").append(userHtml);
+                scrollToBottom();
+            }
+
+            function showTypingIndicator() {
+                const typingHtml = `
+                    <div class="message typing-indicator" id="typing-indicator">
+                        <div class="message-avatar">
+                            <i class="fas fa-tooth"></i>
+                        </div>
+                        <div class="message-content">
+                            <div class="typing-animation">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                $("#chatMessages").append(typingHtml);
+                scrollToBottom();
+            }
+
+            function hideTypingIndicator() {
+                $("#typing-indicator").remove();
+            }
+
+            function addBotMessage(message) {
+                const formattedMessage = formatResponse(message);
+                const botHtml = `
+                    <div class="message">
+                        <div class="message-avatar">
+                            <i class="fas fa-tooth"></i>
+                        </div>
+                        <div class="message-content">
+                            <div class="message-text response-text">${formattedMessage}</div>
+                        </div>
+                    </div>
+                `;
+                $("#chatMessages").append(botHtml);
+                scrollToBottom();
+            }
+
+            function addStreamingBotMessage() {
+                // Generate unique ID for each message
+                const messageId = 'streaming_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+                const textId = 'text_' + messageId;
+
+                const botHtml = `
+                    <div class="message" id="${messageId}">
+                        <div class="message-avatar">
+                            <i class="fas fa-tooth"></i>
+                        </div>
+                        <div class="message-content">
+                            <div class="message-text" id="${textId}"></div>
+                        </div>
+                    </div>
+                `;
+                $("#chatMessages").append(botHtml);
+                scrollToBottom();
+                return $("#" + textId);
+            }
+
+            function updateStreamingMessage(text, textElement) {
+                const formattedMessage = formatResponse(text);
+                if (textElement && textElement.length > 0) {
+                    textElement.html(formattedMessage);
+                } else {
+                    console.log("⚠️ Text element not found for update");
+                }
+                scrollToBottom();
+            }
+
+            $("#messageForm").on("submit", function(event) {
+                event.preventDefault();
+
+                const message = $("#messageInput").val().trim();
+                if (!message) return;
+
+                addUserMessage(message);
+                $("#messageInput").val("");
+
+                console.log("🚀 Starting streaming response for:", message);
+                showTypingIndicator();
+
+                // Create NEW streaming message container for THIS specific message
+                const streamingTextElement = addStreamingBotMessage();
+                console.log("📦 Created new message box with ID:", streamingTextElement.attr('id'));
+
+                // Use fetch for FastAPI
+                fetch('/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        message: message,
+                        session_id: sessionId
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log("✅ Response received");
+                    hideTypingIndicator();
+
+                    // Store session ID
+                    if (data.session_id) {
+                        sessionId = data.session_id;
+                    }
+
+                    // Simple response display (no metadata)
+                    updateStreamingMessage(data.response, streamingTextElement);
+                })
+                .catch(error => {
+                    console.log("❌ Error:", error);
+                    hideTypingIndicator();
+                    updateStreamingMessage("Sorry, I encountered an error. Please try again or call (425) 775-5162 for immediate assistance.", streamingTextElement);
+                });
+            });
+
+            scrollToBottom();
+        });
+    </script>
+</body>
+</html>

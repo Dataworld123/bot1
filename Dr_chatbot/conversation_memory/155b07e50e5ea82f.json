@@ -1,0 +1,34 @@
+{
+  "session_id": "155b07e50e5ea82f",
+  "messages": [
+    {
+      "content": "hi",
+      "message_type": "user",
+      "timestamp": "2025-08-24T15:53:44.050243",
+      "metadata": {}
+    },
+    {
+      "content": "Hello! Thank you for reaching out. If you have a specific dental concern or question, please let me know so I can provide you with the most relevant advice. Your oral health is important to me, and I'm here to help you with any guidance you need. What would you like to discuss today?",
+      "message_type": "assistant",
+      "timestamp": "2025-08-24T15:54:01.521174",
+      "metadata": {
+        "agent_type": "general",
+        "confidence": 0.425,
+        "quality_score": 62.5,
+        "attempts_used": 3
+      }
+    }
+  ],
+  "patient_profile": {
+    "session_id": "155b07e50e5ea82f",
+    "first_interaction": "2025-08-24T15:53:44.050243",
+    "last_interaction": "2025-08-24T15:53:44.050243",
+    "total_interactions": 1,
+    "main_concerns": [],
+    "mentioned_symptoms": [],
+    "treatment_history": [],
+    "preferences": {},
+    "risk_factors": []
+  },
+  "context_summary": ""
+}

@@ -1,0 +1,32 @@
+timestamp,session_id,user_message,ai_response,agent_type,confidence,quality_score,attempts_used,response_time_ms,reasoning_steps_count,context_chunks
+2025-08-24T15:54:01.523159,155b07e50e5ea82f,hi,"Hello! Thank you for reaching out. If you have a specific dental concern or question, please let me know so I can provide you with the most relevant advice. Your oral health is important to me, and I'...",general,0.425,62.5,3,17474,0,1
+2025-08-24T15:57:16.132416,4b6f30eb6edeff68,do you have experience indental implants,"Yes, I have extensive experience with dental implants. The process involves multiple visits over several months, including X-rays, implant placement, and healing time. If you're considering dental imp...",treatment,0.75,75.0,1,18374,0,1
+2025-08-24T15:58:23.421864,4b6f30eb6edeff68,yes i like,"I’m delighted to hear that you're interested! If there are specific aspects of dental care or procedures you’d like to discuss, please let me know. I’m here to provide you with personalized informatio...",general,0.3,50.0,3,15619,0,1
+2025-08-24T16:06:14.227437,9d58201e63c418bb,hi,"**👋 Hello!**
+
+Thank you for reaching out! How can I assist you today? If you have any dental concerns or questions, I'm here to help.
+
+**🦷 My Assessment**
+
+If you're experiencing any dental issues or ...",general,0.75,75.0,1,18968,5,1
+2025-08-24T16:07:14.474072,7fa4ebce5181eabc,do you do dental implants,"**🦷 Dental Implants at Edmonds Bay Dental**
+
+Thank you for your inquiry about dental implants! I’m here to help you understand what this procedure involves.
+
+**💡 Overview of Dental Implants:**
+
+Dental...",treatment,0.75,75.0,1,34602,5,1
+2025-08-24T16:15:43.707919,83ce82a1e9d22c9f,i have facing pain in my tooth,"I'm sorry to hear you're in pain. It could be due to a cavity, infection, or something else requiring attention. I recommend scheduling an appointment so I can examine your tooth and determine the bes...",diagnostic,0.875,87.5,1,14709,0,1
+2025-08-24T16:46:36.458206,beb9ef247f864da4,do you do dental implants,"Yes, I do perform dental implants at Edmonds Bay Dental. Dental implants are an excellent solution for replacing missing teeth, and they can help restore both function and aesthetics to your smile.
+
+T...",treatment,0.875,87.5,1,21631,5,1
+2025-08-24T16:54:26.785540,120626bb288e9656,do you do dental implants,"Absolutely, I do offer dental implants at my practice. They’re a wonderful solution for replacing missing teeth, providing both aesthetics and functionality to your smile. I’d love to discuss how they...",treatment,0.65,75.0,2,15190,0,1
+2025-08-24T17:03:29.486115,783a962a1a567317,i have some issue in my tooth regarding decay can you solve it,"Yes, I can definitely help with tooth decay. I recommend scheduling an appointment so I can assess the damage and discuss the best restorative options for you. When are you available to come in? 😊",diagnostic,0.75,75.0,1,13738,0,1
+2025-08-24T17:10:40.085209,783a962a1a567317,do you do dental implants,"Yes, I do dental implants at my practice. They provide a stable and natural-looking solution for missing teeth. Would you like to schedule a consultation to explore your options? 😊",treatment,0.75,75.0,1,15639,0,1
+2025-08-24T17:14:32.407384,783a962a1a567317,i want to know process about dental implants,"Yes, I perform dental implants, which are a fantastic way to replace missing teeth and restore your smile. They look and feel just like natural teeth! Would you like to schedule a consultation to see ...",treatment,0.75,75.0,1,15970,0,1
+2025-08-24T17:25:07.616864,0da38c9e53b88c3a,Are amalgam (silver) fillings safe?,"Yes, amalgam (silver) fillings are considered safe and effective for cavity treatment, as supported by organizations like the ADA, CDC, and WHO. Here are some key points:
+
+- **Safety**: The mercury in...",treatment,0.3,50.0,3,24099,3,1
+2025-08-24T17:26:12.615682,0da38c9e53b88c3a,who is modi,"It seems there might be a mix-up with the term ""modi."" If you're referring to a specific dental procedure or topic, please let me know so I can assist you more accurately. I'm here to help with any de...",general,0.425,62.5,3,23259,0,1
+2025-08-24T17:28:53.902298,0da38c9e53b88c3a,do you have facility of dental xray,"Yes, we do have the facility for dental X-rays at Edmonds Bay Dental, by Dr. Meenakshi Tomar. Dental X-rays are essential for accurately diagnosing hidden issues that may not be visible during a regul...",general,0.55,75.0,3,27347,5,1
+2025-08-24T18:37:20.357136,1f4b3010477a4349,what is the process of root canal,"Root canal therapy is a procedure designed to save a tooth that has become infected or damaged. At my practice, by Dr. Meenakshi Tomar, I ensure that my patients receive the best care during this proc...",treatment,0.55,75.0,3,43168,5,1
