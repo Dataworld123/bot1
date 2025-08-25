@@ -1,6 +1,6 @@
 # bot1
 
-  graph TB
+    graph TB
     A[User Input] --> B[Intent Classifier Agent]
     B --> C{Query Type}
     C -->|Diagnosis| D[Diagnostic Agent]
